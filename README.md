@@ -12,7 +12,7 @@
 
 ### 1.1 Utilité du projet
 
-- JHotDraw est un framework d'éditeur de dessin avec interface graphique, basé sur un logiciel réalisé en 1996.
+- JHotDraw est un framework graphique en deux dimensions pour les éditeurs de dessin, basé sur un logiciel réalisé en 1996.
 
 - HotDraw étant une bibliothèque Java, elle n'est pas livrée avec un exécutable autonome. Cependant, des exemples d'utilisation, également appelés démos, sont fournis dans le répertoire /jhotdraw-samples. Pour expérimenter avec l'un de ces exemples, suivez ces étapes :
 
@@ -33,6 +33,11 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
 ![Exemple jhotdraw](./images_rapport/exemple-run-project.png)
 
 ### 1.2 Description du projet
+
+- Le readme est bien structuré et contient toutes les informations nécessaires pour comprendre le projetqui sont : les dernières informations concernant la restructuration de certaines classes, la version de jdk utilisé pour le code, le statut de l'intégration continue avec Maven, les instructions pour commencer à utiliser le projet, la dépendance Maven nécessaire pour inclure le projet dans notre propre espace de travail, Des informations sur des exemples d'utilisation du projet, la licence sous laquelle le projet est distribué , l'histoire et l'origine du projet.
+
+- Plusieurs documentations de jhotdraw ont été publiées. L'une des plus pertinentes se trouve sur le site suivant : `http://www.randelshofer.ch/oop/jhotdraw/`. Vous trouverez sur une section du site des liens qui répertorient diverses informations concerant jhotdraw. (Voir l'image ci-dessous)
+![alt text](jhotdraw_documentation.png)
 
 - Il existe en fait un fichier reame dans ce projet mais il contient très peu d'informations sur l'utilisation de ce projet dans le fichier readme.
 

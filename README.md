@@ -37,23 +37,25 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
 - Le readme est bien structuré et contient toutes les informations nécessaires pour comprendre le projetqui sont : les dernières informations concernant la restructuration de certaines classes, la version de jdk utilisé pour le code, le statut de l'intégration continue avec Maven, les instructions pour commencer à utiliser le projet, la dépendance Maven nécessaire pour inclure le projet dans notre propre espace de travail, Des informations sur des exemples d'utilisation du projet, la licence sous laquelle le projet est distribué , l'histoire et l'origine du projet.
 
 - Plusieurs documentations de jhotdraw ont été publiées. L'une des plus pertinentes se trouve sur le site suivant : `http://www.randelshofer.ch/oop/jhotdraw/`. Vous trouverez sur une section du site des liens qui répertorient diverses informations concerant jhotdraw. (Voir l'image ci-dessous)
-![alt text](jhotdraw_documentation.png)
+  ![alt text](jhotdraw_documentation.png)
 
 - Il existe en fait un fichier reame dans ce projet mais il contient très peu d'informations sur l'utilisation de ce projet dans le fichier readme.
 
-TESTS: 21 dans 5 classes
+## 2. Historique du logiciel
 
-### 4 Architecture logicielle
+### 2.1 Analyse du git
+
+## 3 Architecture logicielle
 
 jhotdraw-core
 
-#### 4.1 Utilisation de bibliothèques extérieures
+### 3.1 Utilisation de bibliothèques extérieures
 
-#### 4.2 Organisation en paquetages
+### 3.2 Organisation en paquetages
 
 compter le nombre de paquetages: 14 et paquetages org.jhotdraw.draw
 
-#### 4.3 Répartition des classes dans les paquetages
+### 3.3 Répartition des classes dans les paquetages
 
 Le nombre total de classes (dans core):
 org.jhotdraw.draw: 14
@@ -73,36 +75,46 @@ org.jhotdraw.draw.text: 3
 org.jhotdraw.draw.tool: 20
 TOTAL: 209 classes
 
-### 5 Analyse approfondie
+## 4 Analyse approfondie
 
 ![sonarQube jhotdraw](./images_rapport/sonarqube-projet.png)
 
-#### 5.1 Tests
+### 4.1 Tests
 
 Il y a 21 tests:
 
 jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AttributesTest.java: 1
+
 jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AbstractFigureTest.java: 2
+
 jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/BezierPathTest.java: 4
+
 jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/MutablePath2DTest.java: 4
+
 jhotdraw-io/src/test/java/org/jhotdraw/io/DOMStorableInputOutputFormatTest.java: 10
 
-#### 5.2 Commentaires
+### 4.2 Commentaires
 
 Le code contient 17212 lignes de commentaire, soit 17.1% du code
 
-#### 5.3 Dépréciation
+### 4.3 Dépréciation
 
-#### 5.4 Duplication de code
+### 4.4 Duplication de code
 
 Il y a 84000 lignes dupliqués dans tout le projet, soit 17.0% du code. Il y a 866 blocs dupliqués et 237 fichiers dupliqués
 
-#### 5.5 God Classes
+### 4.5 God Classes
 
 Il y a un total de 765 classes Java et un nombre total de 7007 fonctions
 files: 690
 lines: 123183
 lines of code: 83718
+
+- le nombre de méthodes par classe:
+  - min: 0
+  - max: 90
+  - moyenne: 9
+  - médian: 0-90
 
 ### sonarqube
 

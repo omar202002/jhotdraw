@@ -60,6 +60,8 @@ jhotdraw-core
 
 ### 3.1 Utilisation de bibliothèques extérieures
 
+javax
+
 ### 3.2 Organisation en paquetages
 
 compter le nombre de paquetages: 14 et paquetages org.jhotdraw.draw
@@ -120,10 +122,56 @@ lines: 123183
 lines of code: 83718
 
 - le nombre de méthodes par classe:
+
   - min: 0
   - max: 90
   - moyenne: 9
-  - médian: 0-90
+  - médian: 6
+
+- le nombre de variables d’instances par classe:
+
+  - min:
+  - max:
+  - moyenne:
+  - médian:
+
+- le nombre de lignes de code par classe:
+  - min:1
+  - max:2243(jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/svg/io/SVGInputFormat.java)
+  - moyenne: 127
+  - médian: 72
+- God classes: je pense `SVGInputFormat.java`
+  `plusier ligne de code:`
+  jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/svg/io/SVGInputFormat.java
+  3,251
+  jhotdraw-gui/src/main/java/org/jhotdraw/gui/action/ButtonFactory.java
+  1,982
+  jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/io/ODGInputFormat.java
+  1,928
+  jhotdraw-core/src/main/java/org/jhotdraw/draw/DefaultDrawingView.java
+  1,580
+  jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/svg/io/SVGOutputFormat.java
+  1,389
+  jhotdraw-gui/src/main/java/org/jhotdraw/gui/plaf/palette/PaletteToolBarUI.java
+  1,337
+  jhotdraw-utils/src/main/java/org/jhotdraw/io/Base64.java
+  1,321
+  jhotdraw-utils/src/main/java/org/jhotdraw/geom/path/BezierPath.java
+  1,221
+  jhotdraw-gui/src/main/java/org/jhotdraw/gui/JSheet.java
+  1,217
+  jhotdraw-core/src/main/java/org/jhotdraw/draw/AbstractDrawingView.java
+  1,122
+  jhotdraw-utils/src/main/java/org/jhotdraw/io/StreamPosTokenizer.java
+  1,072
+
+#### 4.6 Analyse des méthodes
+
+- le nombre de complexité cyclomatique:
+  - min: 0
+  - max: 462(SVGInputFormat.java)
+  - moyenne: 23
+  - médian: 20
 
 ### sonarqube
 

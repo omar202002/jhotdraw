@@ -60,7 +60,38 @@ jhotdraw-core
 
 ### 3.1 Utilisation de bibliothèques extérieures
 
-javax
+Ce projet utilise un certain nombre de bibliothèques Java et de plugins Maven. Voici une liste de ceux-ci :
+
+#### Bibliothèques Java
+
+* jhotdraw-utils
+* junit-jupiter (portée de test)
+* assertj-core (portée de test)
+* jhotdraw-datatransfer
+* jhotdraw-api
+* jhotdraw-actions
+* jhotdraw-core
+* xmlunit-assertj (portée de test)
+* jhotdraw-xml
+* jhotdraw-samples-mini
+* jhotdraw-samples-misc
+* jhotdraw-gui
+* jhotdraw-app
+* jhotdraw-io
+
+Note : Les bibliothèques avec "(portée de test)" sont utilisées à des fins de test dans ce projet.
+
+#### Plugins Maven
+
+* gitflow-maven-plugin (version 1.19.0)
+* spotless-maven-plugin (version 2.40.0)
+* maven-checkstyle-plugin (version 3.2.2)
+
+#### Dépendances des plugins
+
+* checkstyle (version 10.9.3)
+
+Cette dépendance est utilisée par le plugin maven-checkstyle-plugin.
 
 ### 3.2 Organisation en paquetages
 

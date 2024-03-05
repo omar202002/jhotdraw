@@ -39,21 +39,22 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
 - Le readme est bien structuré et contient toutes les informations nécessaires pour comprendre le projet qui, sont : les dernières informations concernant la restructuration de certaines classes, la version de jdk utilisé pour le code, le statut de l'intégration continue avec Maven, les instructions pour commencer à utiliser le projet, la dépendance Maven nécessaire pour inclure le projet dans notre propre espace de travail, Des informations sur des exemples d'utilisation du projet, la licence sous laquelle le projet est distribué , l'histoire et l'origine du projet.
 
 - La documentation du projet est faible. Le projet n'est pas directement présenté dans le readme mais à la place, un lien (http://sourceforge.net/projects/jhotdraw) vers un site nous été donné qui, présente le projet.
-Il est juste indiqué comment générer des jars(`mvn clean install`) nécéssaire pour lancer le projet mais aucune commander n'est donnée pour exéuter celui-ci.
+  Il est juste indiqué comment générer des jars(`mvn clean install`) nécéssaire pour lancer le projet mais aucune commander n'est donnée pour exéuter celui-ci.
 
 - les informations en termes d’installation ne sont pas suffisantes. Et quand au lancemeent du projet, rien n'est précisé.
-Néanmoins, les informations conceranant les dernières modifications sont bien précisées dans le readme.
+  Néanmoins, les informations conceranant les dernières modifications sont bien précisées dans le readme.
 
 ## 2. Historique du logiciel
 
 ### 2.1 Analyse du git
 
-- Il y a 2 contributeurs. La participation des contributeurs n'est pas équilibrée. Le dernier commit de l'un de ces deux contributeurs(`wrandelshofer`) date de 10 ans alors que le dernier commit de l'autre (`wumpz`) date de 2 mois. 
-Actuellment, l'on peut dire qu'il n'y qu'un seul contributeurs due à la longue  absence du premier (`wrandelshofer`)
+- Il y a 2 contributeurs. La participation des contributeurs n'est pas équilibrée. Le dernier commit de l'un de ces deux contributeurs(`wrandelshofer`) date de 10 ans alors que le dernier commit de l'autre (`wumpz`) date de 2 mois.
+  Actuellment, l'on peut dire qu'il n'y qu'un seul contributeurs due à la longue absence du premier (`wrandelshofer`)
 
 - Le projet est toujours actif , le dernier commit datant de 2 mois. L'activité n'est pa régulièrement partie sur le temps.
-L'image ci-dessous montre un graphe résumant les commits de chaque contributeurs.
-![alt text](images_rapport/graphe_commit.png)
+  L'image ci-dessous montre un graphe résumant les commits de chaque contributeurs.
+  ![alt text](images_rapport/graphe_commit.png)
+
 ## 3 Architecture logicielle
 
 jhotdraw-core
@@ -64,27 +65,32 @@ javax
 
 ### 3.2 Organisation en paquetages
 
-compter le nombre de paquetages: 14 et paquetages org.jhotdraw.draw
+Il y a 14 et paquetages org.jhotdraw.draw
 
 ### 3.3 Répartition des classes dans les paquetages
 
-Le nombre total de classes (dans core):
-org.jhotdraw.draw: 14
-org.jhotdraw.draw.action: 34
-org.jhotdraw.draw.connector: 11
-org.jhotdraw.draw.constrainer: 5
-org.jhotdraw.draw.decoration: 7
-org.jhotdraw.draw.event: 31
-org.jhotdraw.draw.figure: 31
-org.jhotdraw.draw.handle: 27
-org.jhotdraw.draw.io: 5
-org.jhotdraw.draw.layouter: 6
-org.jhotdraw.draw.liner: 5
-org.jhotdraw.draw.locator: 8
-org.jhotdraw.draw.print: 2
-org.jhotdraw.draw.text: 3
-org.jhotdraw.draw.tool: 20
-TOTAL: 209 classes
+- Le nombre total de classes (dans core):
+  org.jhotdraw.draw: 14
+  org.jhotdraw.draw.action: 34
+  org.jhotdraw.draw.connector: 11
+  org.jhotdraw.draw.constrainer: 5
+  org.jhotdraw.draw.decoration: 7
+  org.jhotdraw.draw.event: 31
+  org.jhotdraw.draw.figure: 31
+  org.jhotdraw.draw.handle: 27
+  org.jhotdraw.draw.io: 5
+  org.jhotdraw.draw.layouter: 6
+  org.jhotdraw.draw.liner: 5
+  org.jhotdraw.draw.locator: 8
+  org.jhotdraw.draw.print: 2
+  org.jhotdraw.draw.text: 3
+  org.jhotdraw.draw.tool: 20
+  TOTAL: 209 classes
+
+- Le nombre de classes par paquetage:
+  - max: 34(org.jhotdraw.draw.action)
+  - min: 2(org.jhotdraw.draw.print)
+  - moyenne: 209/15 = 13.9
 
 ## 4 Analyse approfondie
 
@@ -92,17 +98,21 @@ TOTAL: 209 classes
 
 ### 4.1 Tests
 
-Il y a 21 tests:
+Il y a 21 de tests et 5 classes de test.
 
-jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AttributesTest.java: 1
+jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AttributesTest.java: 1 méthodes de test
 
-jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AbstractFigureTest.java: 2
+jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AbstractFigureTest.java: 2 méthodes de test
 
-jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/BezierPathTest.java: 4
+jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/BezierPathTest.java: 4 méthodes de test
 
-jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/MutablePath2DTest.java: 4
+jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/MutablePath2DTest.java: 4 méthodes de test
 
-jhotdraw-io/src/test/java/org/jhotdraw/io/DOMStorableInputOutputFormatTest.java: 10
+jhotdraw-io/src/test/java/org/jhotdraw/io/DOMStorableInputOutputFormatTest.java: 10 méthodes de test
+
+Ces tests couvrent 1.2% du code(50k lines to cover), ce qui est très bas.
+
+Les tests passent tous, il n'y a aucun problème d'assertions
 
 ### 4.2 Commentaires
 
@@ -112,7 +122,7 @@ Le code contient 17212 lignes de commentaire, soit 17.1% du code
 
 ### 4.4 Duplication de code
 
-Il y a 84000 lignes dupliqués dans tout le projet, soit 17.0% du code. Il y a 866 blocs dupliqués et 237 fichiers dupliqués
+Il y a 20919 lignes dupliqués dans tout le projet, soit 17.0% du code. Il y a 866 blocs dupliqués et 237 fichiers dupliqués
 
 ### 4.5 God Classes
 
@@ -172,6 +182,8 @@ lines of code: 83718
   - max: 462(SVGInputFormat.java)
   - moyenne: 23
   - médian: 20
+
+### 5 Nettoyage de Code et Code smells
 
 ### sonarqube
 

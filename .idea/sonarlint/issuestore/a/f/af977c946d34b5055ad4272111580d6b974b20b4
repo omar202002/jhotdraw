@@ -1,0 +1,59 @@
+
+_
+java:S6208•"CMerge the previous cases into this one using comma-separated label.(‚ÆÂâüÿÿÿÿ
+Z
+java:S6208ž"CMerge the previous cases into this one using comma-separated label.(×­±ª
+_
+java:S6208©"CMerge the previous cases into this one using comma-separated label.(¸„‰ºþÿÿÿÿ
+Z
+java:S6208²"CMerge the previous cases into this one using comma-separated label.(×­±ª
+_
+java:S6208Å"CMerge the previous cases into this one using comma-separated label.(‚ÆÂâüÿÿÿÿ
+Z
+java:S6208Ê"CMerge the previous cases into this one using comma-separated label.(×­±ª
+_
+java:S6208Ñ"CMerge the previous cases into this one using comma-separated label.(¸„‰ºþÿÿÿÿ
+Z
+java:S6208Ö"CMerge the previous cases into this one using comma-separated label.(×­±ª
+Z
+java:S6208þ"CMerge the previous cases into this one using comma-separated label.(Žðúº
+_
+java:S6208‚"CMerge the previous cases into this one using comma-separated label.(‚ÆÂâüÿÿÿÿ
+_
+java:S6208ˆ"CMerge the previous cases into this one using comma-separated label.(¸„‰ºþÿÿÿÿ
+_
+java:S6208£"CMerge the previous cases into this one using comma-separated label.(‚ÆÂâüÿÿÿÿ
+Z
+java:S6208ª"CMerge the previous cases into this one using comma-separated label.(×­±ª
+_
+java:S6208³"CMerge the previous cases into this one using comma-separated label.(¸„‰ºþÿÿÿÿ
+Z
+java:S6208º"CMerge the previous cases into this one using comma-separated label.(×­±ª
+R
+java:S1854m"<Remove this useless assignment to local variable "oldValue".(½„œƒ
+C
+java:S1481m"-Remove this unused "oldValue" local variable.(½„œƒ
+W
+java:S1854s"<Remove this useless assignment to local variable "oldValue".(“Ðþÿÿÿÿ
+H
+java:S1481s"-Remove this unused "oldValue" local variable.(“Ðþÿÿÿÿ
+R
+java:S1854y"<Remove this useless assignment to local variable "oldValue".(ƒôŒŸ
+C
+java:S1481y"-Remove this unused "oldValue" local variable.(ƒôŒŸ
+o	java:S131’"YComplete cases by adding the missing enum constants or add a default case to this switch.(¹Ôñº
+o	java:S131¦"YComplete cases by adding the missing enum constants or add a default case to this switch.(¹Ôñº
+o	java:S131Â"YComplete cases by adding the missing enum constants or add a default case to this switch.(¹Ôñº
+o	java:S131Î"YComplete cases by adding the missing enum constants or add a default case to this switch.(¹Ôñº
+o	java:S131 "YComplete cases by adding the missing enum constants or add a default case to this switch.(¹Ôñº
+o	java:S131°"YComplete cases by adding the missing enum constants or add a default case to this switch.(¹Ôñº
+X
+java:S1854Í"<Remove this useless assignment to local variable "oldValue".(ä›ý‘ýÿÿÿÿ
+I
+java:S1481Í"-Remove this unused "oldValue" local variable.(ä›ý‘ýÿÿÿÿ
+X
+java:S1854Ù"<Remove this useless assignment to local variable "oldValue".(’ýÖÊúÿÿÿÿ
+I
+java:S1481Ù"-Remove this unused "oldValue" local variable.(’ýÖÊúÿÿÿÿ
+n
+java:S3776ß"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(ðåÁ¸úÿÿÿÿ

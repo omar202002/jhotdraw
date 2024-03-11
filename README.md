@@ -61,7 +61,7 @@ jhotdraw-core
 
 ### 3.1 Utilisation de bibliothèques extérieures
 
-Ce projet utilise un certain nombre de bibliothèques Java et de plugins Maven. Voici une liste de ceux-ci :
+Ce projet utilise 14 bibliothèques Java et 3 plugins Maven. Voici les listes les énumérant :
 
 #### Bibliothèques Java
 
@@ -123,7 +123,31 @@ Il y a 14 et paquetages org.jhotdraw.draw
   - min: 2(org.jhotdraw.draw.print)
   - moyenne: 209/15 = 13.9
 
-## 4 Analyse approfondie
+### 3.4 Organisation des classes
+
+#### 3.4.1 Etude de la hiérarchie des classes
+- Pour le nombre d'enfant (NOC) : la classe org.jhotdraw.draw.ReverseList a le plus d'enfants (NOC = 20), tandis que plusieurs classes ont un NOC de 0. La moyenne est de 0, ce qui signifie que la plupart des classes n'ont pas d'enfants, donc cela pourrait indiquer une hiérarchie étroite.
+![alt text](images_rapport/NOC.png)
+
+- Pour la profondeur de l'arbre d'héritage (DIT) : la classe org.jhotdraw.draw.gui.JAttributeTextField a la plus grande profondeur (DIT = 8), tandis que la plupart des classes ont une profondeur de 1 qui est le minimum. La moyenne est de 2.66, ce qui signifie que la plupart des classes ont une profondeur de 1, donc cela pourrait indiquer une hiérarchie plate.
+![alt text](images_rapport/DIT.png)
+
+Ces résultats indiquent que la hierrachie des classes est relativement plate et etroite, avec la plupart des classes ayant peu ou pas d'enfants et etant peu profondes proche de la racine.
+
+#### 3.4.2 Etude de la stabilité des classes
+
+- Pour le couplage entre les objets (CBO) : la classe org.jhotdraw.util.ResourceBundleUtil a le plus grand couplage (CBO = 175), ce qui pourrait rendre les classes avec un CBO élevé plus difficiles à maintenir et à tester.
+- Plusieurs classes ont un CBO de 0, ce qui signifie qu'elles ne sont pas couplées à d'autres classes.
+- La moyenne est de 16.16, ce qui signifie que la plupart des classes sont couplées à environ 16 autres classes. On pourrait par la suite envisagé de réduire le couplage entre les classes.
+![alt text](images_rapport/CBO.png)
+
+#### 3.4.3 Etude de la cohésion des classes
+- Pour le manque de cohésion des méthodes (LCOM) : la classe org.jhotdraw.app.EmptyBuilder a le plus grand LCOM (LCOM = 22), ce qui indique que les classes comme celle-ci ont une faible cohésion. On pourrait par la suite tenter de refactoriser ces classes pour les rendre plus cohérentes.
+- Plusieurs classes ont un LCOM de 0, ce qui signifie qu'elles ont une cohésion parfaite.
+
+- La moyenne est de 2.66, ce qui signifie que la plupart des classes ont une cohésion relativement bonne, mais il y a des améliorations possibles.
+![alt text](images_rapport/LCOM.png)
+
 
 ![sonarQube jhotdraw](./images_rapport/sonarqube-projet.png)
 

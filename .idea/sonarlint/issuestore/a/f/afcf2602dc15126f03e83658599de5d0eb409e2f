@@ -1,0 +1,13 @@
+
+\
+java:S3252$"AUse static access with "java.awt.Component" for "LEFT_ALIGNMENT".(¾ö¦êûÿÿÿÿ
+_
+java:S1134:"DTake the required action to fix the issue indicated by this comment.(çÏÙúÿÿÿÿ
+b
+java:S6201·"KReplace this instanceof check and cast with 'instanceof JViewport viewPort'(¶ƒËé
+g
+java:S6201¹"PReplace this instanceof check and cast with 'instanceof JScrollPane jscrollpane'(¶–´¥
+F
+java:S1197Æ"*Move the array designators [] to the type.(°“ªÊûÿÿÿÿ
+V
+java:S1144`";Remove this unused private "tileFramesHorizontally" method.(¬’²¡úÿÿÿÿ

@@ -1,0 +1,46 @@
+
+C
+java:S1604g"(Make this anonymous inner class a lambda(ÉöŠŸÿÿÿÿÿ
+d
+java:S3824Ï"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(ìõßãûÿÿÿÿ
+t
+java:S1450"XRemove the "infoPanel" field and declare it as a local variable in the relevant methods.(½¨‘¬ùÿÿÿÿ
+t
+java:S1450"XRemove the "separator" field and declare it as a local variable in the relevant methods.(õÃ§¥ıÿÿÿÿ
+p
+java:S1450‘"YRemove the "strutPanel" field and declare it as a local variable in the relevant methods.(“ı Œ
+D
+java:S19484")Make "manager" transient or serializable.(…²•‡ıÿÿÿÿ
+J
+java:S19485"/Make "activityOwner" transient or serializable.(²èÃ‡şÿÿÿÿ
+=
+java:S1948O"'Make "views" transient or serializable.(¹¤ñš
+@
+java:S1948€")Make "handler" transient or serializable.(ïóî‘
+Z
+java:S1134;"DTake the required action to fix the issue indicated by this comment.(‘£õ
+Z
+java:S1134C"DTake the required action to fix the issue indicated by this comment.(‘£õ
+Z
+java:S1134K"DTake the required action to fix the issue indicated by this comment.(‘£õ
+_
+java:S3358a"DExtract this nested ternary operation into an independent statement.(…úüÿÿÿÿÿ
+r
+java:S3923p"]This conditional operation returns the same value whether the condition is "true" or "false".(•÷G
+W	java:S125™"<This block of commented-out lines of code should be removed.(ùÍõÚûÿÿÿÿ
+W	java:S125Â"<This block of commented-out lines of code should be removed.(æ’ş…øÿÿÿÿ
+W	java:S125×"<This block of commented-out lines of code should be removed.(æ’ş…øÿÿÿÿ
+u
+java:S2142Ÿ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(£ÙÜø
+A
+java:S1172ü"*Remove this unused method parameter "evt".(¦÷à‹
+A
+java:S1172"*Remove this unused method parameter "evt".(ÎµÊê
+p
+java:S6201„"TReplace this instanceof check and cast with 'instanceof JActivityView jactivityview'(©éÆ£ùÿÿÿÿ
+A
+java:S3398û"%Move this method into "FormListener".(ÎÚùûÿÿÿÿ
+<
+java:S3398"%Move this method into "FormListener".(ÎµÊê
+N
+java:S1144™"2Remove this unused private "invokeAndWait" method.(İÁ—“úÿÿÿÿ

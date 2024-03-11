@@ -1,0 +1,7 @@
+
+T
+java:S5993"9Change the visibility of this constructor to "protected".(úôÙûÿÿÿÿ
+K
+java:S2065"0Remove the "transient" modifier from this field.(ïéÒÇùÿÿÿÿ
+n
+java:S2975:"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(àã–àşÿÿÿÿ

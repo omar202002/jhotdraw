@@ -1,0 +1,10 @@
+
+—
+java:S1186K"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(É•‹Ý
+@
+java:S19482"*Make "textArea" transient or serializable.(Îê­½
+Q	java:S125P"<This block of commented-out lines of code should be removed.(šÄÊ·
+V	java:S125`"<This block of commented-out lines of code should be removed.(¡Õà·úÿÿÿÿ
+_
+java:S1134_"DTake the required action to fix the issue indicated by this comment.(Ýã˜²ûÿÿÿÿ
+Q	java:S125•"<This block of commented-out lines of code should be removed.(ËŸå^

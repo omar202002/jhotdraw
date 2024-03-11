@@ -1,0 +1,9 @@
+
+>
+java:S1604<"(Make this anonymous inner class a lambda(ç­ƒ÷
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÅääÄ
+t
+java:S1450"YRemove the "colorWheel" field and declare it as a local variable in the relevant methods.(½øÍ¡ıÿÿÿÿ
+Y
+java:S3252("CUse static access with "javax.swing.SwingConstants" for "VERTICAL".(†°˜ã

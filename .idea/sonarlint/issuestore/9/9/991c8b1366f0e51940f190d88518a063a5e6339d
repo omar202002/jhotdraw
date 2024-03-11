@@ -1,0 +1,164 @@
+
+u
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïù©Şüÿÿÿÿ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óñ·°
+p
+java:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(’§ôÖ
+p
+java:S2293¶"YReplace the type specification in this constructor call with the diamond operator ("<>").(’§ôÖ
+p
+java:S2293Ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(’§ôÖ
+p
+java:S2293¥
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(·ÃËø
+_
+java:S6208ò
+"CMerge the previous cases into this one using comma-separated label.(ã¾úôÿÿÿÿÿ
+d
+java:S1192"HDefine a constant instead of duplicating this literal "graphic" 5 times.(¶´¬øÿÿÿÿ
+u
+java:S1192à"YDefine a constant instead of duplicating this literal "):null - not implemented" 4 times.(¹âØ©ıÿÿÿÿ
+b
+java:S1192"KDefine a constant instead of duplicating this literal "style-name" 5 times.(‚Œœâ
+K
+java:S1066õ"/Merge this if statement with the enclosing one.(Ä²îµúÿÿÿÿ
+z
+java:S1488Ø"^Immediately return this expression instead of assigning it to the temporary variable "figure".(“Š†¡ùÿÿÿÿ
+u
+java:S1488ˆ"YImmediately return this expression instead of assigning it to the temporary variable "f".(°›ğÂşÿÿÿÿ
+u
+java:S1488š"YImmediately return this expression instead of assigning it to the temporary variable "f".(‚û²Øúÿÿÿÿ
+u
+java:S1488º"YImmediately return this expression instead of assigning it to the temporary variable "f".(ŸĞßµÿÿÿÿÿ
+p
+java:S1488Ú"YImmediately return this expression instead of assigning it to the temporary variable "f".(Ùû— 
+N
+java:S2629ñ"7Use the built-in formatting to construct this argument.(ÍêæĞ
+S
+java:S2629ö"7Use the built-in formatting to construct this argument.(ÈÆÿÿÿÿÿ
+N
+java:S2629«"7Use the built-in formatting to construct this argument.(éóŠî
+S
+java:S2629ú"7Use the built-in formatting to construct this argument.(¥èÙîÿÿÿÿÿ
+J
+java:S2755Š"3Disable access to external entities in XML parsing.(²µŸš
+—
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(É•ºÏ
+g
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
+R
+java:S1854v"<Remove this useless assignment to local variable "isZipped".(ùã¸ñ
+H
+java:S1481j"-Remove this unused "isZipped" local variable.(Óæòşÿÿÿÿ
+n
+java:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(×·‚¹øÿÿÿÿ
+S
+java:S1854"7Remove this useless assignment to local variable "doc".(±ï€ëûÿÿÿÿ
+D
+java:S1481"(Remove this unused "doc" local variable.(±ï€ëûÿÿÿÿ
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(³ÿÃè
+i
+java:S3776·"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ìˆÚÚ
+‚
+java:S1130ÿ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¬¬’C
+A
+java:S1172ÿ"+Remove this unused method parameter "elem".(¬¬’C
+ˆ
+java:S1130ƒ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹Ö‰ûÿÿÿÿ
+G
+java:S1172ƒ"+Remove this unused method parameter "elem".(¹Ö‰ûÿÿÿÿ
+O
+java:S1854¹"8Remove this useless assignment to local variable "path".(Íğìë
+Z
+java:S1854Ù"DRemove this useless assignment to local variable "mirrorHorizontal".(çßK
+Y
+java:S1854×"BRemove this useless assignment to local variable "mirrorVertical".(Ï¦şœ
+@
+java:S1481¹")Remove this unused "path" local variable.(Íğìë
+J
+java:S1481×"3Remove this unused "mirrorVertical" local variable.(Ï¦şœ
+K
+java:S1481Ù"5Remove this unused "mirrorHorizontal" local variable.(çßK
+[
+java:S1134Ü"DTake the required action to fix the issue indicated by this comment.(®íø
+`
+java:S1134İ"DTake the required action to fix the issue indicated by this comment.(¶ôÆİûÿÿÿÿ
+[
+java:S1134Ş"DTake the required action to fix the issue indicated by this comment.(ä§µ¿
+[
+java:S1134ß"DTake the required action to fix the issue indicated by this comment.(¼—•
+A	java:S106æ"+Replace this use of System.out by a logger.(é²¦Û
+ˆ
+java:S1130ï"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(–†«Åøÿÿÿÿ
+ˆ
+java:S1130ø"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(–†«Åøÿÿÿÿ
+ˆ
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(åÍ¤´ùÿÿÿÿ
+ƒ
+java:S1130Š"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹£ş
+ƒ
+java:S1130˜"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹£ş
+ƒ
+java:S1130§"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹£ş
+ƒ
+java:S1130Ò"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Çöşò
+B
+java:S1172Ò"+Remove this unused method parameter "elem".(Çöşò
+ƒ
+java:S1130×"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(×İ°ş
+R	java:S125è"<This block of commented-out lines of code should be removed.(ØÌ
+ƒ
+java:S1130Ş"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ĞÃ
+ˆ
+java:S1130ã"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(çğª„ûÿÿÿÿ
+ˆ
+java:S1130è"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹¯éÏÿÿÿÿÿ
+ƒ
+java:S1130í"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(âéš¥
+ƒ
+java:S1130ö"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˜Ëï
+ˆ
+java:S1130…"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(±â¿èúÿÿÿÿ
+ƒ
+java:S1130¦"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(é˜Âœ
+R
+java:S1854İ";Remove this useless assignment to local variable "command".(‡•üµ
+;
+java:S1659Ñ"Declare "y" on a separate line.(ıâóûÿÿÿÿ
+[
+java:S1659Ò"?Declare "y1" and all following declarations on a separate line.(³ÈÛøÿÿÿÿ
+R
+java:S1119Ş";Refactor the code to remove this label and the need for it.(½ã²‰
+W	java:S125ñ"<This block of commented-out lines of code should be removed.(ú§•Üıÿÿÿÿ
+i
+java:S3776£	"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(Ó…–
+<
+java:S1659Î	" Declare "ty" on a separate line.(¥Ò±°ùÿÿÿÿ
+<
+java:S1659é	" Declare "sy" on a separate line.(§ÏéÌùÿÿÿÿ
+V
+java:S1659ù	"?Declare "cx" and all following declarations on a separate line.(Ù¨õ¸
+>
+java:S1481ù	"'Remove this unused "cx" local variable.(Ù¨õ¸
+>
+java:S1481ù	"'Remove this unused "cy" local variable.(Ù¨õ¸
+o
+java:S3776¤
+"SRefactor this method to reduce its Cognitive Complexity from 201 to the 15 allowed.(±äïËıÿÿÿÿ
+R
+java:S1854µ
+";Remove this useless assignment to local variable "command".(‡•üµ
+R
+java:S1119¶
+";Refactor the code to remove this label and the need for it.(½ã²‰
+R	java:S125"<This block of commented-out lines of code should be removed.(¾è°
+R	java:S125É"<This block of commented-out lines of code should be removed.(¾è°
+R	java:S125ÿ"<This block of commented-out lines of code should be removed.(Öë£¯
+ã
+java:S6541Î"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 148 to 64, Complexity from 20 to 14, Nesting Level from 3 to 2, Number of Variables from 13 to 6.(ˆõ½Øúÿÿÿÿ
+Ş
+java:S6541£	"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 111 to 64, Complexity from 23 to 14, Nesting Level from 5 to 2, Number of Variables from 16 to 6.(Ó…–
+ã
+java:S6541¤
+"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 553 to 64, Complexity from 88 to 14, Nesting Level from 5 to 2, Number of Variables from 17 to 6.(±äïËıÿÿÿÿ

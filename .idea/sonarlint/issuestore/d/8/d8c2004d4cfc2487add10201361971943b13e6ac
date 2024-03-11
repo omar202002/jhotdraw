@@ -1,0 +1,9 @@
+
+_
+java:S2184@"DCast one of the operands of this subtraction operation to a "float".(ŠËåîÿÿÿÿÿ
+C
+java:S1172"(Remove this unused method parameter "c".(å‚Ú”ûÿÿÿÿ
+h
+java:S3776Q"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ïÆ•ø
+a
+java:S6201‹"JReplace this instanceof check and cast with 'instanceof BackdropBorder bb'(¼Ö‰–

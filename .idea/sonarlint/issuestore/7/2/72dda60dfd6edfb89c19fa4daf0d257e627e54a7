@@ -1,0 +1,48 @@
+
+u
+java:S2293†"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÏ§ÿÿÿÿÿ
+p
+java:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùË½
+p
+java:S2293¯"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùË½
+p
+java:S2293¾"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùË½
+I
+java:S1121T".Extract the assignment out of this expression.(áùŞ‰ıÿÿÿÿ
+D
+java:S1121V".Extract the assignment out of this expression.(¥ø–Â
+D
+java:S1121X".Extract the assignment out of this expression.(Ó´âÖ
+I
+java:S1121Z".Extract the assignment out of this expression.(Œ×à øÿÿÿÿ
+I
+java:S1121\".Extract the assignment out of this expression.(Îáø´úÿÿÿÿ
+D
+java:S1121_".Extract the assignment out of this expression.(´Âş§
+D
+java:S1121a".Extract the assignment out of this expression.(” ¨ä
+I
+java:S1121c".Extract the assignment out of this expression.(µİŸııÿÿÿÿ
+I
+java:S1121e".Extract the assignment out of this expression.(“çü½øÿÿÿÿ
+I
+java:S1121g".Extract the assignment out of this expression.(ä”º©ûÿÿÿÿ
+r
+java:S1450ğ"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+u
+java:S1450ñ"YRemove the "scrollPane" field and declare it as a local variable in the relevant methods.(Ë£³Ğÿÿÿÿÿ
+u
+java:S1450ò"^Remove the "toolButtonGroup" field and declare it as a local variable in the relevant methods.(—ŠÊô
+D
+java:S1948/")Make "drawing" transient or serializable.(Òâéƒûÿÿÿÿ
+>
+java:S19480"(Make "editor" transient or serializable.(³šà¦
+V	java:S125O"<This block of commented-out lines of code should be removed.(ôÚãŠıÿÿÿÿ
+Z
+java:S1134N"DTake the required action to fix the issue indicated by this comment.(Ù¿²á
+Q
+java:S1117m";Rename "drawing" which hides the field declared at line 47.(ÿå±±
+F
+java:S1068/"+Remove this unused "drawing" private field.(Òâéƒûÿÿÿÿ
+J
+java:S1068ò"3Remove this unused "toolButtonGroup" private field.(—ŠÊô

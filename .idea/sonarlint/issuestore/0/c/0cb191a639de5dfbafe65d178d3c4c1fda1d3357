@@ -1,0 +1,14 @@
+
+4
+java:S1700%"Rename field "attributes"(¶­Şõúÿÿÿÿ
+i	java:S116."TRename this field "DEPENDENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ ô½
+^
+java:S1612:"CReplace this lambda with method reference 'Collections::emptyList'.(Ú”Ê¹ÿÿÿÿÿ
+^
+java:S1612>"CReplace this lambda with method reference 'Collections::emptyList'.(Ú”Ê¹ÿÿÿÿÿ
+A
+java:S1452\"&Remove usage of generic wildcard type.(˜·úÿÿÿÿ
+=
+java:S1452¨"&Remove usage of generic wildcard type.(£ŒÚÓ
+i
+java:S6204İ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(½·

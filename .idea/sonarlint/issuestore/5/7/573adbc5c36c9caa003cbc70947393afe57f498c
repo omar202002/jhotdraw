@@ -1,0 +1,23 @@
+
+E
+java:S1066]"/Merge this if statement with the enclosing one.(¶Œó¯
+E
+java:S1066l"/Merge this if statement with the enclosing one.(¶Œó¯
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(û˜Æşÿÿÿÿ
+—
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆŸÇ‰
+=
+java:S1948"'Make "value" transient or serializable.(şû½ˆ
+G
+java:S1948,"1Make "documentHandler" transient or serializable.(€òø€
+s
+java:S2177"WRename this method; there is a "private" method in the parent class with the same name.(ú‚²ıÿÿÿÿ
+e
+java:S6201‚"NReplace this instanceof check and cast with 'instanceof DateFormat dateformat'(™µªˆ
+n
+java:S6201…"RReplace this instanceof check and cast with 'instanceof NumberFormat numberformat'(öŞ±«úÿÿÿÿ
+]
+java:S6201ˆ"FReplace this instanceof check and cast with 'instanceof Format format'(â†®·
+O
+java:S1144"3Remove this unused private "initComponents" method.(û˜Æşÿÿÿÿ

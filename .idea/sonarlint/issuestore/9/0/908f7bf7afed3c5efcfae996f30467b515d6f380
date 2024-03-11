@@ -1,0 +1,17 @@
+
+l
+java:S1192J"QDefine a constant instead of duplicating this literal "colorSliderModel" 5 times.(áäáúÿÿÿÿ
+>
+java:S1604:"(Make this anonymous inner class a lambda(ç­ƒ÷
+:
+java:S1948"$Make "sliders" private or transient.(–ù”
+`
+java:S3252""EUse static access with "java.awt.color.ColorSpace" for "getInstance".(äÏªÎÿÿÿÿÿ
+\
+java:S3252""AUse static access with "java.awt.color.ColorSpace" for "CS_sRGB".(äÏªÎÿÿÿÿÿ
+W
+java:S1854,"<Remove this useless assignment to local variable "oldValue".(¼çéşÿÿÿÿ
+H
+java:S1481,"-Remove this unused "oldValue" local variable.(¼çéşÿÿÿÿ
+V	java:S125\"<This block of commented-out lines of code should be removed.(€ÿÇûÿÿÿÿ
+F	java:S106Ÿ"+Replace this use of System.err by a logger.(„Ó±âûÿÿÿÿ

@@ -1,0 +1,37 @@
+
+_
+java:S6208Á"CMerge the previous cases into this one using comma-separated label.(½’ê˜ûÿÿÿÿ
+_
+java:S6208Ò"CMerge the previous cases into this one using comma-separated label.(Ìßßøÿÿÿÿ
+Z
+java:S2184Ó"DCast one of the operands of this subtraction operation to a "float".(ÂŸã|
+a
+java:S2259Ö"EA "NullPointerException" could be thrown; "selRect" is nullable here.(Œû Íûÿÿÿÿ
+\
+java:S2259ï"EA "NullPointerException" could be thrown; "selRect" is nullable here.(ı’µì
+a
+java:S2259…"EA "NullPointerException" could be thrown; "selRect" is nullable here.(ĞÙïøÿÿÿÿ
+a
+java:S2259¢"EA "NullPointerException" could be thrown; "selRect" is nullable here.(ÎîüÙüÿÿÿÿ
+C
+java:S1172,"(Remove this unused method parameter "c".(å‚Ú”ûÿÿÿÿ
+E
+java:S14813"*Remove this unused "mtpui" local variable.(Ä¶â‰şÿÿÿÿ
+\
+java:S3252N"GUse static access with "javax.swing.LookAndFeel" for "installProperty".(°Å‹+
+R	java:S125…"<This block of commented-out lines of code should be removed.(©Œé¸
+n
+java:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¥­å¿şÿÿÿÿ
+W	java:S125‡"<This block of commented-out lines of code should be removed.(’Åİ×şÿÿÿÿ
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(ê€€ûÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(¦òëûıÿÿÿÿ
+R	java:S125Î"<This block of commented-out lines of code should be removed.(ˆÌ‚
+s
+java:S2177Ü"WRename this method; there is a "private" method in the parent class with the same name.(°ø”‹ıÿÿÿÿ
+W	java:S125ê"<This block of commented-out lines of code should be removed.(Äº‘œùÿÿÿÿ
+˜
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı—Ê
+
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷àšÜúÿÿÿÿ
+[
+java:S1144Ü"?Remove this unused private "scrollableTabLayoutEnabled" method.(°ø”‹ıÿÿÿÿ

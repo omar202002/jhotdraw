@@ -1,0 +1,7 @@
+
+r
+java:S1488S"\Immediately return this expression instead of assigning it to the temporary variable "that".(¼Éôï
+a
+java:S6201-"FReplace this instanceof check and cast with 'instanceof TaskFigure sf'(èÒõÁùÿÿÿÿ
+i
+java:S2975R"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ŞÈÖ¼

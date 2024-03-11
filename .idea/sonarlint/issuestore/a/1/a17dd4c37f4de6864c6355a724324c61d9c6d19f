@@ -1,0 +1,23 @@
+
+a
+java:S1192'"FDefine a constant instead of duplicating this literal "value" 3 times.(ÍÁ£ºüÿÿÿÿ
+J
+java:S1066("/Merge this if statement with the enclosing one.(‘±Õìøÿÿÿÿ
+J
+java:S10663"/Merge this if statement with the enclosing one.(‘±Õìøÿÿÿÿ
+J
+java:S1066>"/Merge this if statement with the enclosing one.(‘±Õìøÿÿÿÿ
+C
+java:S1604$"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+C
+java:S1604/"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+C
+java:S1604:"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+q
+java:S1450¹"ZRemove the "heightLabel" field and declare it as a local variable in the relevant methods.(•¾‰”
+p
+java:S1450»"YRemove the "thetaLabel" field and declare it as a local variable in the relevant methods.(ŞÄÍğ
+p
+java:S1450½"YRemove the "widthLabel" field and declare it as a local variable in the relevant methods.(æãºÎ
+H
+java:S1948"-Make "constrainer" transient or serializable.(ÂÏ‹æÿÿÿÿÿ

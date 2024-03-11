@@ -1,0 +1,45 @@
+
+t
+java:S2293H"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÏ§ÿÿÿÿÿ
+t
+java:S2293R"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÏ§ÿÿÿÿÿ
+o
+java:S2293f"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùË½
+o
+java:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùË½
+o
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùË½
+o
+java:S2293y"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùË½
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª›ØÁûÿÿÿÿ
+p
+java:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìÄş—
+u
+java:S2293¹"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ã¦–Üûÿÿÿÿ
+p
+java:S2293ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ş‘Ñ
+u
+java:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(şÊ€ßüÿÿÿÿ
+u
+java:S2293™"YReplace the type specification in this constructor call with the diamond operator ("<>").(şÊ€ßüÿÿÿÿ
+o
+java:S1192b"YDefine a constant instead of duplicating this literal "org.jhotdraw.draw.Labels" 4 times.(Â‚Ÿ§
+J
+java:S1121Ø".Extract the assignment out of this expression.(ğ°¤™øÿÿÿÿ
+E
+java:S1121İ".Extract the assignment out of this expression.(¬Ë„ş
+D
+java:S1604÷"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+7
+java:S2129İ" Remove this "Double" constructor(¬Ë„ş
+_
+java:S5738İ"HRemove this call to a deprecated method, it has been marked for removal.(¬Ë„ş
+V
+java:S1854û"?Remove this useless assignment to local variable "inputFormat".(Úö€
+G
+java:S1481û"0Remove this unused "inputFormat" local variable.(Úö€
+Q
+java:S1751"5Remove this "break" statement or make it conditional.(»ó¶…øÿÿÿÿ
+Q
+java:S1751¢"5Remove this "break" statement or make it conditional.(»ó¶…øÿÿÿÿ

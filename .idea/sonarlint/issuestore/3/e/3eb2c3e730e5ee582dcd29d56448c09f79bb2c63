@@ -1,0 +1,34 @@
+
+K
+java:S3740ß"/Provide the parametrized type for this generic.(Ğ‘¥âÿÿÿÿÿ
+T
+java:S5993u"9Change the visibility of this constructor to "protected".(ÇÄÌşÿÿÿÿÿ
+@
+java:S19485"*Make "layouter" transient or serializable.(å±¢Ï
+;
+java:S19487"%Make "children" private or transient.(¥à·
+H
+java:S1948›",Make "attributes" transient or serializable.(‚•Ø¥üÿÿÿÿ
+W	java:S125§"<This block of commented-out lines of code should be removed.(ÉãÄ‰şÿÿÿÿ
+E
+java:S1940¼")Use the opposite operator (">=") instead.(ƒÉÑ€ÿÿÿÿÿ
+?
+java:S1940½")Use the opposite operator (">=") instead.(ã¯­;
+U
+java:S1155Ê">Use isEmpty() to check whether the collection is empty or not.(ûù—
+A
+java:S1481ù"*Remove this unused "found" local variable.(ÙÍÜ
+b
+java:S6201 "KReplace this instanceof check and cast with 'instanceof CompositeFigure cf'(ÙÕ€ô
+o
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¨©í›şÿÿÿÿ
+U
+java:S1612”">Replace this lambda with method reference 'that::getChildren'.(¨ Ñ£
+m
+java:S1612†"QReplace this lambda with method reference 'CompositeFigureListener::figureAdded'.(à€Çüÿÿÿÿ
+o
+java:S1612"SReplace this lambda with method reference 'CompositeFigureListener::figureRemoved'.(Å¦úêøÿÿÿÿ
+|
+java:S1612"`Replace this lambda with method reference 'AbstractAttributedCompositeFigure.this::getChildren'.(¦˜Û üÿÿÿÿ
+E
+java:S1905É")Remove this unnecessary cast to "Number".(¤ûÿ´ıÿÿÿÿ

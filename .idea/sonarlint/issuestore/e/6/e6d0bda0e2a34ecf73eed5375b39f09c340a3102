@@ -1,0 +1,15 @@
+
+C
+java:S1604-"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+C
+java:S16049"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+N
+java:S5993G"9Change the visibility of this constructor to "protected".(ı À
+;
+java:S1948"%Make "app" transient or serializable.(ø«÷Ô
+<
+java:S1948"&Make "view" transient or serializable.(ØÊ»¶
+P
+java:S1948,"5Make "applicationListener" transient or serializable.(×Í—ºúÿÿÿÿ
+D
+java:S19488".Make "viewListener" transient or serializable.(ã¡¥’

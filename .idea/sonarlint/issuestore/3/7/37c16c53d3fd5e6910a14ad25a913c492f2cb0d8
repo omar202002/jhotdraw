@@ -1,0 +1,34 @@
+
+X
+java:S2259]"BA "NullPointerException" could be thrown; "name" is nullable here.(ä†˜¥
+S
+java:S2589×"7Remove this expression which always evaluates to "true"(¸¢Ï”ıÿÿÿÿ
+P
+java:S5993ª"9Change the visibility of this constructor to "protected".(§Ÿšá
+P
+java:S5993¯"9Change the visibility of this constructor to "protected".(§Ÿšá
+P
+java:S5993¸"9Change the visibility of this constructor to "protected".(§Ÿšá
+m
+java:S3776U"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ğéËøÿÿÿÿ
+D
+java:S1948{"/Make "editRedoValue" transient or serializable.(‰ïë=
+D
+java:S1948|".Make "editUndoData" transient or serializable.(ÀŸ–Ã
+{
+java:S6201£"dReplace this instanceof check and cast with 'instanceof UndoableAttributeEdit undoableattributeedit'(ë¯î
+S
+java:S1854Ó"<Remove this useless assignment to local variable "oldValue".(Ğ©“²
+D
+java:S1481Ó"-Remove this unused "oldValue" local variable.(Ğ©“²
+X
+java:S1854­"<Remove this useless assignment to local variable "oldValue".(¸ß¡ªúÿÿÿÿ
+`
+java:S3358¬"DExtract this nested ternary operation into an independent statement.(Áè“óüÿÿÿÿ
+I
+java:S1481­"-Remove this unused "oldValue" local variable.(¸ß¡ªúÿÿÿÿ
+i
+java:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ä¤Àú
+i
+java:S3776ä"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(–®¿ã
+?	java:S108ç")Either remove or fill this block of code.(êâÕî

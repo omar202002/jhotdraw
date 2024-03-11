@@ -1,0 +1,22 @@
+
+p
+java:S2293Ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ëè•
+S
+java:S1854¤"<Remove this useless assignment to local variable "oldValue".(´Ú‰Â
+D
+java:S1481¤"-Remove this unused "oldValue" local variable.(´Ú‰Â
+R
+java:S1854ª"<Remove this useless assignment to local variable "oldValue".(è½!
+C
+java:S1481ª"-Remove this unused "oldValue" local variable.(è½!
+b
+java:S6201½"FReplace this instanceof check and cast with 'instanceof Double double'(™”Åµþÿÿÿÿ
+j
+java:S3252û"SUse static access with "org.jhotdraw.draw.AttributeKeys" for "getStrokeTotalWidth".(Ðšñ•
+t
+java:S3252ü"XUse static access with "org.jhotdraw.draw.AttributeKeys" for "getStrokeTotalMiterLimit".(ø¾â‹üÿÿÿÿ
+h
+java:S3252€"LUse static access with "org.jhotdraw.draw.AttributeKeys" for "getHitStroke".(ã™¢ýþÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(®úÓ®
+j
+java:S2975Ù"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(››•

@@ -1,0 +1,46 @@
+
+I
+java:S1121\".Extract the assignment out of this expression.(áùÞ‰ýÿÿÿÿ
+D
+java:S1121^".Extract the assignment out of this expression.(¥ø–Â
+D
+java:S1121`".Extract the assignment out of this expression.(Ó´âÖ
+I
+java:S1121b".Extract the assignment out of this expression.(Œ×à øÿÿÿÿ
+I
+java:S1121d".Extract the assignment out of this expression.(Îáø´úÿÿÿÿ
+D
+java:S1121g".Extract the assignment out of this expression.(´Âþ§
+D
+java:S1121i".Extract the assignment out of this expression.(” ¨ä
+I
+java:S1121k".Extract the assignment out of this expression.(µÝŸýýÿÿÿÿ
+I
+java:S1121m".Extract the assignment out of this expression.(“çü½øÿÿÿÿ
+I
+java:S1121o".Extract the assignment out of this expression.(ä”º©ûÿÿÿÿ
+E
+java:S1121Ô".Extract the assignment out of this expression.(ëÁ¢£
+E
+java:S1121à".Extract the assignment out of this expression.(éÎÁã
+E
+java:S1121è".Extract the assignment out of this expression.(éÎÁã
+r
+java:S1450ú"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+u
+java:S1450û"YRemove the "scrollPane" field and declare it as a local variable in the relevant methods.(Ë£³Ðÿÿÿÿÿ
+u
+java:S1450ü"^Remove the "toolButtonGroup" field and declare it as a local variable in the relevant methods.(—ŠÊô
+D
+java:S19487")Make "drawing" transient or serializable.(Òâéƒûÿÿÿÿ
+>
+java:S19488"(Make "editor" transient or serializable.(³šà¦
+V	java:S125W"<This block of commented-out lines of code should be removed.(ôÚãŠýÿÿÿÿ
+_
+java:S1134V"DTake the required action to fix the issue indicated by this comment.(“Ÿ¸÷ûÿÿÿÿ
+Q
+java:S1117u";Rename "drawing" which hides the field declared at line 55.(ÿå±±
+F
+java:S10687"+Remove this unused "drawing" private field.(Òâéƒûÿÿÿÿ
+J
+java:S1068ü"3Remove this unused "toolButtonGroup" private field.(—ŠÊô

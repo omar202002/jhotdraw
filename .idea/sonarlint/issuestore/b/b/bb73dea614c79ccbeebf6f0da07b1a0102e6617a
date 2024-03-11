@@ -1,0 +1,9 @@
+
+C
+java:S1604Q"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+G
+java:S19486"1Make "propertyHandler" transient or serializable.(¢åâ‘
+c
+java:S6201c"NReplace this instanceof check and cast with 'instanceof JComponent jcomponent'(Â·Ïv
+r
+java:S6201j"\Replace this instanceof check and cast with 'instanceof EditableComponent editablecomponent'(¶Ÿñÿ

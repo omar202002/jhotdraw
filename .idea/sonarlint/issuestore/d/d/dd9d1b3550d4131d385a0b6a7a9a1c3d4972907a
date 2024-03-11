@@ -1,0 +1,20 @@
+
+p
+java:S1488Ö"YImmediately return this expression instead of assigning it to the temporary variable "p".(†ù«
+_
+java:S2184{"DCast one of the operands of this subtraction operation to a "float".(‰©ÆØùÿÿÿÿ
+8
+java:S1659#"#Declare "flipY" on a separate line.(õÁ‚e
+T
+java:S1854_"9Remove this useless assignment to local variable "scale".(Îôöìúÿÿÿÿ
+V	java:S125A"<This block of commented-out lines of code should be removed.(Ğ†‘éøÿÿÿÿ
+Q	java:S125U"<This block of commented-out lines of code should be removed.(úõò¡
+V	java:S125X"<This block of commented-out lines of code should be removed.(ôëåÉøÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(êŒÃùÿÿÿÿ
+Q
+java:S1854|";Remove this useless assignment to local variable "extentY".(ÔŸø¨
+B
+java:S1481|",Remove this unused "extentY" local variable.(ÔŸø¨
+R	java:S125Œ"<This block of commented-out lines of code should be removed.(úõò¡
+W	java:S125"<This block of commented-out lines of code should be removed.(ôëåÉøÿÿÿÿ
+W	java:S125’"<This block of commented-out lines of code should be removed.(êŒÃùÿÿÿÿ

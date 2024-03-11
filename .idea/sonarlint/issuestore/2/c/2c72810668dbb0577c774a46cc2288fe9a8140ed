@@ -1,0 +1,38 @@
+
+i
+java:S11920"NDefine a constant instead of duplicating this literal "view.gridSize" 3 times.(Æ¸šÂùÿÿÿÿ
+{
+java:S1192'"`Define a constant instead of duplicating this literal "org.jhotdraw.samples.svg.Labels" 3 times.(®èååüÿÿÿÿ
+K
+java:S1066"/Merge this if statement with the enclosing one.(‘±Õìøÿÿÿÿ
+K
+java:S1066²"/Merge this if statement with the enclosing one.(‘±Õìøÿÿÿÿ
+K
+java:S1066½"/Merge this if statement with the enclosing one.(‘±Õìøÿÿÿÿ
+D
+java:S1604®"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+D
+java:S1604¹"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+a
+java:S13017"KReplace this "switch" statement by "if" statements to increase readability.(ş™ÅŞ
+S
+java:S4973¼"<Strings and Boxed types should be compared using "equals()".(÷„‡×
+A
+java:S1948#"&Make "view" transient or serializable.(©Ãû«ÿÿÿÿÿ
+m
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ôš¸ÿÿÿÿÿ
+7	java:S1317""Add a default case to this switch.(ş™ÅŞ
+V
+java:S3252t"@Use static access with "javax.swing.SwingConstants" for "RIGHT".(á–‘
+X
+java:S3252z"BUse static access with "javax.swing.SwingConstants" for "LEADING".(ç¬İù
+\
+java:S3252£"@Use static access with "javax.swing.SwingConstants" for "RIGHT".(’Ü¥ùÿÿÿÿ
+Y
+java:S3252«"BUse static access with "javax.swing.SwingConstants" for "LEADING".(· ñÄ
+E
+java:S1905¾")Remove this unnecessary cast to "Double".(¦“—äúÿÿÿÿ
+s
+java:S2177é"WRename this method; there is a "private" method in the parent class with the same name.(ü·úÿÿÿÿ
+O
+java:S1144é"3Remove this unused private "initComponents" method.(ü·úÿÿÿÿ

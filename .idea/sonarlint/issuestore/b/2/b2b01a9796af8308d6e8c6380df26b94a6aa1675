@@ -1,15 +1,0 @@
-
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜ÏÍÜ
-o
-java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ëè•
-u
-java:S2293„"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î³÷íûÿÿÿÿ
-B
-java:S1948",Make "attributes" transient or serializable.(˜ÏÍÜ
-h
-java:S3776K"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(îÌì„
-o
-java:S2975‚"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¿—Ã¯þÿÿÿÿ
-V
-java:S1161‚":Add the "@Override" annotation above this method signature(¿—Ã¯þÿÿÿÿ

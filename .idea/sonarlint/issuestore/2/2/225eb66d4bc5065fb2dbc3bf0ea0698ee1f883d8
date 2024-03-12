@@ -1,22 +1,0 @@
-
-œ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÊšîÆşÿÿÿÿ
-8
-java:S1118"Hide this public constructor.(ÊšîÆşÿÿÿÿ
-
-java:S1186à"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ä¼»äÿÿÿÿÿ
-7
-java:S1659Š" Declare "dy" on a separate line.(”—•Ì
-R	java:S125"<This block of commented-out lines of code should be removed.(ĞŸ§‡
-E
-java:S1940ó")Use the opposite operator (">=") instead.(ƒÉÑ€ÿÿÿÿÿ
-?
-java:S1940ô")Use the opposite operator (">=") instead.(ã¯­;
-7	java:S131—""Add a default case to this switch.( à×H
-7	java:S131Ò""Add a default case to this switch.( à×H
-7	java:S131‡""Add a default case to this switch.( à×H
-7	java:S131¼""Add a default case to this switch.( à×H
-7	java:S131ø""Add a default case to this switch.( à×H
-7	java:S131³""Add a default case to this switch.( à×H
-7	java:S131è""Add a default case to this switch.( à×H
-7	java:S131¤""Add a default case to this switch.( à×H

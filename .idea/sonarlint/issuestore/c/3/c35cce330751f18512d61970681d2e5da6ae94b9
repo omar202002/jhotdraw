@@ -1,13 +1,0 @@
-
-]
-java:S1192F"GDefine a constant instead of duplicating this literal "\" in " 3 times.(ÕÌõ—
-C
-java:S1948"(Make "source" transient or serializable.(Ïó¢ùÿÿÿÿ
-E
-java:S1948"*Make "oldValue" transient or serializable.(àœ÷şÿÿÿÿ
-@
-java:S1948 "*Make "newValue" transient or serializable.(Ñ¹Ø
-g
-java:S6201"PReplace this instanceof check and cast with 'instanceof PropertyChangeEdit that'(°¨ñû
->
-java:S1068#"(Remove this unused "type" private field.(¶ŒÛÚ

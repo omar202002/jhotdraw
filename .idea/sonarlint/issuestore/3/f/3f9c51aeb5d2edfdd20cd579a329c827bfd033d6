@@ -1,14 +1,0 @@
-
-
-java:S1319¤"eThe type of "oldToNew" should be an interface such as "Map" rather than the implementation "HashMap".(×ß……ûÿÿÿÿ
-o
-java:S2975—"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Û”¨òıÿÿÿÿ
-G
-java:S4524º"+Move this default to the end of the switch.(İ–Ò˜ÿÿÿÿÿ
-h
-java:S1128"SRemove this unused import 'org.jhotdraw.draw.AttributeKeys.StrokePlacement.CENTER'.(”š¥
-
-n
-java:S1128"SRemove this unused import 'org.jhotdraw.draw.AttributeKeys.StrokePlacement.INSIDE'.(Æ€§»üÿÿÿÿ
-o
-java:S1128"TRemove this unused import 'org.jhotdraw.draw.AttributeKeys.StrokePlacement.OUTSIDE'.(µäÜğúÿÿÿÿ

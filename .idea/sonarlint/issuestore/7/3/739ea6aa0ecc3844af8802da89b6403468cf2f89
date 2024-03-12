@@ -1,21 +1,0 @@
-
-t
-java:S1192\"YDefine a constant instead of duplicating this literal "org.jhotdraw.draw.Labels" 4 times.(¸ÿÙÎıÿÿÿÿ
-T
-java:S22596"?A "NullPointerException" could be thrown; "r" is nullable here.(ãĞêl
-O
-java:S5993"9Change the visibility of this constructor to "protected".(„ˆ‹ı
-h
-java:S3776%"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ë×Ñı
-n	java:S131:"YComplete cases by adding the missing enum constants or add a default case to this switch.(¹Ôñº
-D
-java:S1481P")Remove this unused "edit" local variable.(µ•²çşÿÿÿÿ
-j
-java:S1128
-"TRemove this unused import 'org.jhotdraw.draw.constrainer.TranslationDirection.EAST'.(£š¿Õ
-p
-java:S1128"URemove this unused import 'org.jhotdraw.draw.constrainer.TranslationDirection.NORTH'.(Œ§üÅüÿÿÿÿ
-p
-java:S1128"URemove this unused import 'org.jhotdraw.draw.constrainer.TranslationDirection.SOUTH'.(ûÒ”şÿÿÿÿ
-o
-java:S1128"TRemove this unused import 'org.jhotdraw.draw.constrainer.TranslationDirection.WEST'.(¹„í¼ÿÿÿÿÿ

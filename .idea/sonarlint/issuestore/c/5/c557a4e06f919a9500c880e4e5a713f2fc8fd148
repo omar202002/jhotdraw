@@ -1,17 +1,0 @@
-
-E
-java:S1066A"/Merge this if statement with the enclosing one.(å³§¨
-?
-java:S1948I")Make "handler" transient or serializable.(ïóî‘
-m
-java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(É„ß¼ûÿÿÿÿ
-7
-java:S1116G"Remove this empty statement.(Åñ­õşÿÿÿÿ
-m
-java:S3776P"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Úè­ ùÿÿÿÿ
-1
-java:S3626S"Remove this redundant jump.(ûÁİ…
-a
-java:S6201^"FReplace this instanceof check and cast with 'instanceof Component src'(ÜÅîüÿÿÿÿ
-b
-java:S5738~"GRemove this call to a deprecated class, it has been marked for removal.(Î€ıÈüÿÿÿÿ

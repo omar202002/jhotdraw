@@ -1,30 +1,0 @@
-
-®
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Â­·_
-C
-java:S1172&"(Remove this unused method parameter "c".(å‚Ú”ûÿÿÿÿ
-_
-java:S11341"DTake the required action to fix the issue indicated by this comment.(¦æàÔÿÿÿÿÿ
-Q	java:S125?"<This block of commented-out lines of code should be removed.(Ô¬ì
-V	java:S125E"<This block of commented-out lines of code should be removed.(Ö™Ý—ÿÿÿÿÿ
-i
-java:S3252X"TUse static access with "javax.swing.plaf.basic.BasicGraphicsUtils" for "drawString".(›Ú´:
-Q	java:S125W"<This block of commented-out lines of code should be removed.(Ÿ…â•
-j
-java:S3252b"TUse static access with "javax.swing.plaf.basic.BasicGraphicsUtils" for "drawString".(î’÷ä
-j
-java:S3252e"TUse static access with "javax.swing.plaf.basic.BasicGraphicsUtils" for "drawString".(î’÷ä
-o
-java:S3252i"TUse static access with "javax.swing.plaf.basic.BasicGraphicsUtils" for "drawString".(Ïëƒ‡þÿÿÿÿ
-V	java:S125k"<This block of commented-out lines of code should be removed.(Š×îÞùÿÿÿÿ
-C
-java:S1905~"-Remove this unnecessary cast to "JComponent".(„›†š
-W	java:S125"<This block of commented-out lines of code should be removed.(Áê«¯ùÿÿÿÿ
-D
-java:S1068")Remove this unused "iconR" private field.(öõˆØøÿÿÿÿ
-D
-java:S1068")Remove this unused "textR" private field.(Ä¯–Åýÿÿÿÿ
-?
-java:S1068")Remove this unused "viewR" private field.(âÅáŒ
-D
-java:S1068".Remove this unused "viewInsets" private field.(ÁÞ¯”

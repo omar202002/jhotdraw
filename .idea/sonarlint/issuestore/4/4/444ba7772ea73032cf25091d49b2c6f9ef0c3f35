@@ -1,9 +1,0 @@
-
-†
-java:S1319c"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¾ûÏ
-¯
-java:S6548 "˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(¾¶˜´
-_
-java:S1134h"DTake the required action to fix the issue indicated by this comment.(ëìÛİÿÿÿÿÿ
-t
-java:S2142q"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(£ÙÜø

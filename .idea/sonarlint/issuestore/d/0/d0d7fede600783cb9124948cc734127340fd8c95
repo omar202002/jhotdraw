@@ -1,16 +1,0 @@
-
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜ÏÍÜ
-o
-java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ëè•
-u
-java:S2293‹"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î³÷íûÿÿÿÿ
-a
-java:S1301c"KReplace this "switch" statement by "if" statements to increase readability.(Ö±¬Ë
-B
-java:S1948",Make "attributes" transient or serializable.(˜ÏÍÜ
-h
-java:S3776K"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(îÌì„
-7	java:S131c""Add a default case to this switch.(Ö±¬Ë
-o
-java:S2975‰"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(å´›ùÿÿÿÿ

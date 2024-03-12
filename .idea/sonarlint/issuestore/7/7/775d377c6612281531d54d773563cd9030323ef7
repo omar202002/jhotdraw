@@ -1,7 +1,0 @@
-
-_
-java:S6208Ô"CMerge the previous cases into this one using comma-separated label.(ªëÅŞúÿÿÿÿ
-b
-java:S6201ä"FReplace this instanceof check and cast with 'instanceof Double double'(ŠÖ¡üÿÿÿÿ
-o
-java:S2975Š"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(öñ—Ÿùÿÿÿÿ

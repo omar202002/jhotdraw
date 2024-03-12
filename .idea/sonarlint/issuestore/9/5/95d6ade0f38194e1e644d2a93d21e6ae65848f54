@@ -1,9 +1,0 @@
-
-u
-java:S1488ˆ"^Immediately return this expression instead of assigning it to the temporary variable "bounds".(‡Ê·
-@
-java:S1905º")Remove this unnecessary cast to "Double".(­ŸÚŒ
-j
-java:S2975Ó"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Ìöö¦
-A
-java:S1181¯"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ

@@ -10,6 +10,18 @@
 
 `Lien du projet :  https://github.com/wumpz/jhotdraw`
 
+## config Sonarqube
+
+```
+docker run -d --name sonarqube -p 9000:9000 sonarqube:8-community
+
+mvn org.jacoco:jacoco-maven-plugin:prepare-agent package
+
+mvn org.jacoco:jacoco-maven-plugin:report
+
+mvn sonar:sonar -Dsonar.login=ba45686f7a746dae73676bd0935c86a24ac24f25
+```
+
 ## 1. Présentation globale du projet
 
 ### 1.1 Utilité du projet
@@ -65,57 +77,73 @@ Ce projet utilise un certain nombre de bibliothèques Java et de plugins Maven. 
 
 #### Bibliothèques Java
 
-* jhotdraw-utils
-* junit-jupiter (portée de test)
-* assertj-core (portée de test)
-* jhotdraw-datatransfer
-* jhotdraw-api
-* jhotdraw-actions
-* jhotdraw-core
-* xmlunit-assertj (portée de test)
-* jhotdraw-xml
-* jhotdraw-samples-mini
-* jhotdraw-samples-misc
-* jhotdraw-gui
-* jhotdraw-app
-* jhotdraw-io
+- jhotdraw-utils
+- junit-jupiter (portée de test)
+- assertj-core (portée de test)
+- jhotdraw-datatransfer
+- jhotdraw-api
+- jhotdraw-actions
+- jhotdraw-core
+- xmlunit-assertj (portée de test)
+- jhotdraw-xml
+- jhotdraw-samples-mini
+- jhotdraw-samples-misc
+- jhotdraw-gui
+- jhotdraw-app
+- jhotdraw-io
 
 Note : Les bibliothèques avec "(portée de test)" sont utilisées à des fins de test dans ce projet.
 
 #### Plugins Maven
 
-* gitflow-maven-plugin (version 1.19.0)
-* spotless-maven-plugin (version 2.40.0)
-* maven-checkstyle-plugin (version 3.2.2)
+- gitflow-maven-plugin (version 1.19.0)
+- spotless-maven-plugin (version 2.40.0)
+- maven-checkstyle-plugin (version 3.2.2)
 
 #### Dépendances des plugins
 
-* checkstyle (version 10.9.3)
+- checkstyle (version 10.9.3)
 
 Cette dépendance est utilisée par le plugin maven-checkstyle-plugin.
 
 ### 3.2 Organisation en paquetages
 
-Il y a 14 et paquetages org.jhotdraw.draw
+Il y a 14 paquetages et le paquetage org.jhotdraw.draw
 
 ### 3.3 Répartition des classes dans les paquetages
 
 - Le nombre total de classes (dans core):
+
   org.jhotdraw.draw: 14
+
   org.jhotdraw.draw.action: 34
+
   org.jhotdraw.draw.connector: 11
+
   org.jhotdraw.draw.constrainer: 5
+
   org.jhotdraw.draw.decoration: 7
+
   org.jhotdraw.draw.event: 31
+
   org.jhotdraw.draw.figure: 31
+
   org.jhotdraw.draw.handle: 27
+
   org.jhotdraw.draw.io: 5
+
   org.jhotdraw.draw.layouter: 6
+
   org.jhotdraw.draw.liner: 5
+
   org.jhotdraw.draw.locator: 8
+
   org.jhotdraw.draw.print: 2
+
   org.jhotdraw.draw.text: 3
+
   org.jhotdraw.draw.tool: 20
+
   TOTAL: 209 classes
 
 - Le nombre de classes par paquetage:
@@ -131,23 +159,25 @@ Il y a 14 et paquetages org.jhotdraw.draw
 
 Il y a 21 de tests et 5 classes de test.
 
-jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AttributesTest.java: 1 méthodes de test
+jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AttributesTest.java: 1 méthodes de test et 3 Assertions
 
-jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AbstractFigureTest.java: 2 méthodes de test
+jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AbstractFigureTest.java: 2 méthodes de test et 6 Assertions
 
-jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/BezierPathTest.java: 4 méthodes de test
+jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/BezierPathTest.java: 4 méthodes de test et 8 Assertions
 
-jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/MutablePath2DTest.java: 4 méthodes de test
+jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/MutablePath2DTest.java: 4 méthodes de test et 5 Assertions
 
-jhotdraw-io/src/test/java/org/jhotdraw/io/DOMStorableInputOutputFormatTest.java: 10 méthodes de test
+jhotdraw-io/src/test/java/org/jhotdraw/io/DOMStorableInputOutputFormatTest.java: 10 méthodes de test et 19 Assertions
 
 Ces tests couvrent 1.2% du code(50k lines to cover), ce qui est très bas.
+
+Ce sont des tests unitaires.
 
 Les tests passent tous, il n'y a aucun problème d'assertions
 
 ### 4.2 Commentaires
 
-Le code contient 17212 lignes de commentaire, soit 17.1% du code
+Le code contient 17212 lignes de commentaire, soit 17.1% du code. Ces commentaires sont en grande partie de la Javadoc mais il y a en a beaucoup qui sont des licences. Il y a peu de codes commentés, de plus la plupart d'entre eux sont des codes écrits en commentaires.
 
 ### 4.3 Dépréciation
 
@@ -216,17 +246,103 @@ lines of code: 83718
 
 ### 5 Nettoyage de Code et Code smells
 
-### sonarqube
+![Code smells](./images_rapport/code-smell.png)
+
+#### 5.1 Règles de nommage
+
+- Noms descriptifs et sans ambiguïté :
+  je constate que les noms utilisés pour les variables, les fonctions et les classes sont généralement descriptifs et sans ambiguïté. Par exemple, la classe DrawingEditor est un nom clair pour une classe qui fournit un éditeur de dessins. De même, la classe Figure est un nom clair pour une classe qui représente une figure graphique.
+
+- Éviter la désinformation :
+  Je n'ai trouvé aucun cas de désinformation dans les conventions de dénomination utilisées dans votre référentiel. Les noms utilisés pour les variables, les fonctions et les classes reflètent fidèlement leur objectif et leur fonction.
+
+- Noms prononçables et spécifiques au domaine :
+  Les noms sont généralement prononçables et spécifiques au domaine. Par exemple, la classe Drawing est un nom clair et prononçable pour une classe qui représente un dessin graphique. De même, la classe Figure est un nom clair et spécifique au domaine pour une classe qui représente une figure graphique.
+
+=> Dans l'ensemble, les conventions de dénomination utilisées dans ce projet sont claires, descriptives et sans ambiguïté. Les noms utilisés pour les variables, les fonctions et les classes reflètent fidèlement leur objectif et leur fonction, et sont généralement prononçables et spécifiques au domaine.
+
+#### 5.2 Nombre magique
+
+Les constantes numériques, également appelées « nombres magiques », sont des valeurs numériques codées en dur qui apparaissent dans le code. Ils peuvent rendre le code plus difficile à lire et à maintenir, surtout si la même valeur est utilisée à plusieurs endroits.
+
+Voici quelques exemples de constantes numériques dans le référentiel jhotdraw :
+
+- Dans la classe `PaletteRootPaneUI`, la valeur 0,0 est utilisée comme taille par défaut:
+
+à la ligne 69:
 
 ```
-docker run -d --name sonarqube -p 9000:9000 sonarqube:8-community
-
-mvn org.jacoco:jacoco-maven-plugin:prepare-agent package
-
-mvn org.jacoco:jacoco-maven-plugin:report
-
-mvn sonar:sonar -Dsonar.login=ba45686f7a746dae73676bd0935c86a24ac24f25
+mbd = new Dimension(0, 0);
 ```
+
+à la ligne 93:
+
+```
+rd = new Dimension(0, 0);
+```
+
+à la ligne 98:
+
+```
+mbd = new Dimension(0, 0);
+```
+
+à la ligne 120:
+
+```
+mbd = new Dimension(0, 0);
+```
+
+- Dans la classe `DnDMultiEditorSample`, la valeur 200,200 est utilisée comme taille par défaut:
+
+```
+JScrollPane sp;
+innerPane.add(sp = new JScrollPane(view1.getComponent()));
+sp.setPreferredSize(new Dimension(200, 200));
+innerPane.add(sp = new JScrollPane(view2.getComponent()));
+sp.setPreferredSize(new Dimension(200, 200));
+innerPane.add(sp = new JScrollPane(view3.getComponent()));
+sp.setPreferredSize(new Dimension(200, 200));
+innerPane.add(sp = new JScrollPane(view4.getComponent()));
+sp.setPreferredSize(new Dimension(200, 200));
+```
+
+- ...
+
+Pour rendre le code plus lisible et maintenable, nous pouvons remplacer ces constantes numériques par des constantes nommées. Voici un exemple de la façon dont nous pouvons remplacer la constante de taille par défaut dans les classes DrawingEditor, Drawing et Figure :
+
+1. Créez un nouveau fichier appelé `Constants.java` dans le package `org.jhotdraw.util`.
+2. Définissez une nouvelle constante pour la taille par défaut :
+
+```
+public final class Constants {
+    public static final int DEFAULT_SIZE_10 = 10;
+    public static final int DEFAULT_SIZE_200 = 200;
+    public static final int DEFAULT_SIZE_X = X;
+
+
+}
+```
+
+3. Remplacez la constante numérique par la constante nommée
+
+```
+new Dimension(Constants.DEFAULT_SIZE_X, Constants.DEFAULT_SIZE_X);
+```
+
+Nous pouvons appliquer la même approche pour remplacer les autres constantes numériques dans le code.
+
+En remplaçant les constantes numériques par des constantes nommées, nous pouvons rendre le code plus lisible et plus maintenable. Les constantes nommées indiquent clairement ce que représente la valeur et elles peuvent être facilement modifiées en un seul endroit si la valeur doit être mise à jour. Cela peut aider à éviter les bogues et à rendre le code plus facile à utiliser.
+
+#### 5.3 Structure du code
+
+#### 5.4 Code mort
+
+Après avoir examiné le référentiel `jhotdraw`, je n'ai trouvé aucun signe évident de code mort. Cependant, certaines classes et méthodes ne sont pas utilisées dans l'implémentation actuelle, mais elles font partie de l'API et pourront être utilisées à l'avenir.
+
+Par exemple, la classe `org.jhotdraw.app.action.AbstractToolAction` n'est pas utilisée dans l'implémentation actuelle, mais elle fait partie de l'API et pourra être utilisée à l'avenir. De même, la classe org.jhotdraw.app.action.AbstractToolBarAction n'est pas utilisée dans l'implémentation actuelle, mais elle fait partie de l'API et pourra être utilisée à l'avenir.
+
+Ces classes et méthodes sont testées et maintenues dans le cadre de l'API, elles ne doivent donc pas être supprimées.
 
 # jhotdraw
 

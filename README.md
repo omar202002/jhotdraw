@@ -23,7 +23,7 @@
 2. Compilez l'ensemble du projet en utilisant la commande Maven :
 
 ```
-mv clean install
+mvn clean install
 ```
 
 3. Choisissez un exemple à exécuter, par exemple, le programme jhotdraw-samples/jhotdraw-samples-mics/src/main/java/org/jhotdraw/samples/draw/Main.java.
@@ -39,10 +39,12 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
 - Le readme est bien structuré et contient toutes les informations nécessaires pour comprendre le projet qui, sont : les dernières informations concernant la restructuration de certaines classes, la version de jdk utilisé pour le code, le statut de l'intégration continue avec Maven, les instructions pour commencer à utiliser le projet, la dépendance Maven nécessaire pour inclure le projet dans notre propre espace de travail, Des informations sur des exemples d'utilisation du projet, la licence sous laquelle le projet est distribué , l'histoire et l'origine du projet.
 
 - La documentation du projet est faible. Le projet n'est pas directement présenté dans le readme mais à la place, un lien (http://sourceforge.net/projects/jhotdraw) vers un site nous été donné qui, présente le projet.
-  Il est juste indiqué comment générer des jars(`mvn clean install`) nécéssaire pour lancer le projet mais aucune commander n'est donnée pour exéuter celui-ci.
+  Il est juste indiqué comment générer des jars(`mvn clean install`) nécéssaire pour lancer le projet mais aucune commande n'est donnée pour exécuter celui-ci.
 
-- les informations en termes d’installation ne sont pas suffisantes. Et quand au lancemeent du projet, rien n'est précisé.
-  Néanmoins, les informations conceranant les dernières modifications sont bien précisées dans le readme.
+- les informations en termes d’installation ne sont pas suffisantes. Il manque plusieurs choses comme les commandes maven pour la documentation, les tests, les dépendances, etc. Et rien n'est précisé quand à la façon de lancer le projet.
+Ces différentes informations sont pourtant importantes pour la compréhension et l'utilisation du projet.
+
+Néanmoins, les informations conceranant les dernières modifications éffectués sont bien précisées dans le readme.
 
 ## 2. Historique du logiciel
 
@@ -54,6 +56,12 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
 - Le projet est toujours actif , le dernier commit datant de 2 mois. L'activité n'est pa régulièrement partie sur le temps.
   L'image ci-dessous montre un graphe résumant les commits de chaque contributeurs.
   ![alt text](images_rapport/graphe_commit.png)
+
+- Deux branches sont utilisées dans le projet : La branche `develop` et la branche `master`. 
+La branche `develop` est la branche par défaut. La branche `main` est fait parti de la section `active branches` 
+- Le mécanisme des pull request n'est jamais utilisé dans le projet.
+![alt text](images_rapport/Branches.png)
+
 
 ## 3 Architecture logicielle
 

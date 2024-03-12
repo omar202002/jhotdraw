@@ -1,0 +1,9 @@
+
+g
+java:S2118_"LMake the "org.jhotdraw.draw.Drawing" class "Serializable" or don't write it.(¿˜ÏÇþÿÿÿÿ
+@
+java:S1905g"*Remove this unnecessary cast to "Drawing".(ŠÊ¶î
+C
+java:S1068,".Remove this unused "formatName" private field.(Ø¨¬U
+G
+java:S1068/",Remove this unused "mimeType" private field.(ÑÓÐ©øÿÿÿÿ

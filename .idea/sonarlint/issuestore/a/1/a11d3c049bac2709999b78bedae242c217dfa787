@@ -1,0 +1,32 @@
+
+}
+java:S1488!"bImmediately return this expression instead of assigning it to the temporary variable "components".(½¸åÜøÿÿÿÿ
+h	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îóåÃıÿÿÿÿ
+b
+java:S6201["LReplace this instanceof check and cast with 'instanceof ICC_ColorSpace aicc'(•«Û†
+m
+java:S3776m"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ğ¤ˆ¸øÿÿÿÿ
+n
+java:S6201n"XReplace this instanceof check and cast with 'instanceof NamedColorSpace namedcolorspace'(Âÿ¼“
+a
+java:S6201q"KReplace this instanceof check and cast with 'instanceof ICC_ColorSpace icc'(¨´‰Ò
+d	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áìŞØ
+o
+java:S6201«"XReplace this instanceof check and cast with 'instanceof NamedColorSpace namedcolorspace'(ƒ´«ï
+i	java:S100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù•¸‚ûÿÿÿÿ
+t
+java:S6201µ"XReplace this instanceof check and cast with 'instanceof NamedColorSpace namedcolorspace'(ÄĞ…¼ùÿÿÿÿ
+i	java:S100¿"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„š˜µúÿÿÿÿ
+t
+java:S6201À"XReplace this instanceof check and cast with 'instanceof NamedColorSpace namedcolorspace'(ÄĞ…¼ùÿÿÿÿ
+i	java:S100Ê"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àñ†¡ıÿÿÿÿ
+t
+java:S6201Ë"XReplace this instanceof check and cast with 'instanceof NamedColorSpace namedcolorspace'(ÄĞ…¼ùÿÿÿÿ
+d	java:S100Õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó™Ü
+d	java:S100Û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªìƒ
+i	java:S100â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å§¼‘úÿÿÿÿ
+i	java:S100é"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÿ„Ûùÿÿÿÿ
+i	java:S100î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïèÈÅÿÿÿÿÿ
+d	java:S100ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¶§€
+H
+java:S1172ó"1Remove this unused method parameter "colorvalue".(É¶§€

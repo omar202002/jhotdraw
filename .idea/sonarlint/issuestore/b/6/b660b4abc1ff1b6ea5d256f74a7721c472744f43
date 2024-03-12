@@ -1,0 +1,20 @@
+
+t
+java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(½‹Ãæøÿÿÿÿ
+a
+java:S1301B"KReplace this "switch" statement by "if" statements to increase readability.(Ö±¬Ë
+7	java:S131B""Add a default case to this switch.(Ö±¬Ë
+a
+java:S6201m"LReplace this instanceof check and cast with 'instanceof LocatorConnector lc'(µ˜èh
+n
+java:S2975z"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ÜËˆ©şÿÿÿÿ
+C
+java:S1128".Remove this unused import 'org.jhotdraw.draw'.(Î¬ïo
+D
+java:S1068#")Remove this unused "north" private field.(®ıÂ¶üÿÿÿÿ
+D
+java:S1068$")Remove this unused "south" private field.(ÇÂ¨«şÿÿÿÿ
+C
+java:S1068%"(Remove this unused "east" private field.(•ÙÛ™ùÿÿÿÿ
+C
+java:S1068&"(Remove this unused "west" private field.(îÙûÿÿÿÿ

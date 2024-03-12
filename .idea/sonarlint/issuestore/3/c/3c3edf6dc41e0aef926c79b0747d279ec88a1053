@@ -1,0 +1,38 @@
+
+g
+java:S1301Ú"KReplace this "switch" statement by "if" statements to increase readability.(¹Ó£ğşÿÿÿÿ
+q
+java:S1488È"ZImmediately return this expression instead of assigning it to the temporary variable "p3".(¨Ôîğ
+d
+java:S2184Ğ"HCast one of the operands of this multiplication operation to a "double".(‘™øÿÿÿÿ
+d
+java:S2184Ğ"HCast one of the operands of this multiplication operation to a "double".(‘™øÿÿÿÿ
+^
+java:S2184š"BCast one of the operands of this division operation to a "double".( ¤ï ıÿÿÿÿ
+^
+java:S2184š"BCast one of the operands of this division operation to a "double".( ¤ï ıÿÿÿÿ
+\
+java:S2184Û"@Cast one of the operands of this addition operation to a "long".(½šÖüÿÿÿÿ
+\
+java:S2184ß"ECast one of the operands of this subtraction operation to a "double".(™ïìÁ
+W	java:S107¨"<Method has 8 parameters, which is greater than 7 authorized.(‰±îËıÿÿÿÿ
+W	java:S107Ù"<Method has 8 parameters, which is greater than 7 authorized.(á‹èûÿÿÿÿ
+W	java:S107…"<Method has 9 parameters, which is greater than 7 authorized.(á‹èûÿÿÿÿ
+T
+java:S1659*">Declare "b" and all following declarations on a separate line.(Ú»ç­
+?
+java:S19052")Remove this unnecessary cast to "double".(Òÿ¬
+?
+java:S19052")Remove this unnecessary cast to "double".(Òÿ¬
+T
+java:S1659I">Declare "b" and all following declarations on a separate line.(Ú»ç­
+W	java:S125µ"<This block of commented-out lines of code should be removed.(À½Ûõøÿÿÿÿ
+=	java:S131Ú""Add a default case to this switch.(¹Ó£ğşÿÿÿÿ
+W	java:S125ò"<This block of commented-out lines of code should be removed.(ùÏ øÿÿÿÿ
+6
+java:S1659ä"Declare "y" on a separate line.(äÛÁ”
+;
+java:S1659ù"Declare "y" on a separate line.(™îèûúÿÿÿÿ
+n
+java:S3776…"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(á‹èûÿÿÿÿ
+W	java:S125ë"<This block of commented-out lines of code should be removed.(ÄîÑÅşÿÿÿÿ

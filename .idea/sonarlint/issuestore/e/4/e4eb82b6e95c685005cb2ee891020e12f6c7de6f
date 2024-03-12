@@ -1,0 +1,22 @@
+
+Y
+java:S2184é"BCast one of the operands of this addition operation to a "double".(¤Ú±Ş
+Y
+java:S2184ê"BCast one of the operands of this addition operation to a "double".(˜öÁ¨
+Y
+java:S2184ô"BCast one of the operands of this addition operation to a "double".(¤Ú±Ş
+Y
+java:S2184õ"BCast one of the operands of this addition operation to a "double".(˜öÁ¨
+Y
+java:S2184€"BCast one of the operands of this addition operation to a "double".(¤Ú±Ş
+Y
+java:S2184"BCast one of the operands of this addition operation to a "double".(˜öÁ¨
+n	java:S116&"ZRename this field "FIGURE_LISTENER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äí–
+T
+java:S5993?"9Change the visibility of this constructor to "protected".(úìĞ‚úÿÿÿÿ
+h
+java:S1612¦"LReplace this lambda with method reference 'HandleListener::areaInvalidated'.(«’Ğ˜ıÿÿÿÿ
+l
+java:S1612Â"PReplace this lambda with method reference 'HandleListener::handleRequestRemove'.(²…Ò”üÿÿÿÿ
+v
+java:S1612È"ZReplace this lambda with method reference 'HandleListener::handleRequestSecondaryHandles'.(ÓÇøÿÿÿÿ

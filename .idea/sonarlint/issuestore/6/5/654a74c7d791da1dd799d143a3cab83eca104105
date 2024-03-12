@@ -1,0 +1,11 @@
+
+…
+java:S1192¯"iDefine a constant instead of duplicating this literal "Null value not allowed for AttributeKey " 3 times.(Èüðãüÿÿÿÿ
+b
+java:S1192‡"FDefine a constant instead of duplicating this literal "clone" 3 times.(¦°ÈÙÿÿÿÿÿ
+x
+java:S1488Á"\Immediately return this expression instead of assigning it to the temporary variable "edit".(Ñçêôÿÿÿÿÿ
+I
+java:S1948)".Make "defaultValue" transient or serializable.(ØŸß¥ùÿÿÿÿ
+n
+java:S6201±"RReplace this instanceof check and cast with 'instanceof AttributeKey attributekey'(á›žÚýÿÿÿÿ

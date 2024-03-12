@@ -1,0 +1,20 @@
+
+t
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(£ûéÿÿÿÿÿ
+F
+java:S1066É"/Merge this if statement with the enclosing one.(úÁˆØ
+F
+java:S1066ê"/Merge this if statement with the enclosing one.(úÁˆØ
+‚
+java:S1130."lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¬£ôÎ
+X
+java:S2130¡"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(°ËËª
+d
+java:S6201¹"HReplace this instanceof check and cast with 'instanceof Element element'(³ˆŸ˜ÿÿÿÿÿ
+A
+java:S1481Ô"*Remove this unused "count" local variable.(æÕ¿¼
+d
+java:S6201Ù"HReplace this instanceof check and cast with 'instanceof Element element'(³ˆŸ˜ÿÿÿÿÿ
+d
+java:S6201é"HReplace this instanceof check and cast with 'instanceof Element element'(³ˆŸ˜ÿÿÿÿÿ
+R	java:S125ı"<This block of commented-out lines of code should be removed.(¸íƒè

@@ -35,7 +35,7 @@ mvn sonar:sonar -Dsonar.login=ba45686f7a746dae73676bd0935c86a24ac24f25
 2. Compilez l'ensemble du projet en utilisant la commande Maven :
 
 ```
-mv clean install
+mvn clean install
 ```
 
 3. Choisissez un exemple à exécuter, par exemple, le programme jhotdraw-samples/jhotdraw-samples-mics/src/main/java/org/jhotdraw/samples/draw/Main.java.
@@ -51,10 +51,12 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
 - Le readme est bien structuré et contient toutes les informations nécessaires pour comprendre le projet qui, sont : les dernières informations concernant la restructuration de certaines classes, la version de jdk utilisé pour le code, le statut de l'intégration continue avec Maven, les instructions pour commencer à utiliser le projet, la dépendance Maven nécessaire pour inclure le projet dans notre propre espace de travail, Des informations sur des exemples d'utilisation du projet, la licence sous laquelle le projet est distribué , l'histoire et l'origine du projet.
 
 - La documentation du projet est faible. Le projet n'est pas directement présenté dans le readme mais à la place, un lien (http://sourceforge.net/projects/jhotdraw) vers un site nous été donné qui, présente le projet.
-  Il est juste indiqué comment générer des jars(`mvn clean install`) nécéssaire pour lancer le projet mais aucune commander n'est donnée pour exéuter celui-ci.
+  Il est juste indiqué comment générer des jars(`mvn clean install`) nécéssaire pour lancer le projet mais aucune commande n'est donnée pour exécuter celui-ci.
 
-- les informations en termes d’installation ne sont pas suffisantes. Et quand au lancemeent du projet, rien n'est précisé.
-  Néanmoins, les informations conceranant les dernières modifications sont bien précisées dans le readme.
+- les informations en termes d’installation ne sont pas suffisantes. Il manque plusieurs choses comme les commandes maven pour la documentation, les tests, les dépendances, etc. Et rien n'est précisé quand à la façon de lancer le projet.
+Ces différentes informations sont pourtant importantes pour la compréhension et l'utilisation du projet.
+
+Néanmoins, les informations conceranant les dernières modifications éffectués sont bien précisées dans le readme.
 
 ## 2. Historique du logiciel
 
@@ -67,13 +69,19 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
   L'image ci-dessous montre un graphe résumant les commits de chaque contributeurs.
   ![alt text](images_rapport/graphe_commit.png)
 
+- Deux branches sont utilisées dans le projet : La branche `develop` et la branche `master`. 
+La branche `develop` est la branche par défaut. La branche `main` est fait parti de la section `active branches` 
+- Le mécanisme des pull request n'est jamais utilisé dans le projet.
+![alt text](images_rapport/Branches.png)
+
+
 ## 3 Architecture logicielle
 
 jhotdraw-core
 
 ### 3.1 Utilisation de bibliothèques extérieures
 
-Ce projet utilise un certain nombre de bibliothèques Java et de plugins Maven. Voici une liste de ceux-ci :
+Ce projet utilise 14 bibliothèques Java et 3 plugins Maven. Voici les listes les énumérant :
 
 #### Bibliothèques Java
 
@@ -151,7 +159,31 @@ Il y a 14 paquetages et le paquetage org.jhotdraw.draw
   - min: 2(org.jhotdraw.draw.print)
   - moyenne: 209/15 = 13.9
 
-## 4 Analyse approfondie
+### 3.4 Organisation des classes
+
+#### 3.4.1 Etude de la hiérarchie des classes
+- Pour le nombre d'enfant (NOC) : la classe org.jhotdraw.draw.ReverseList a le plus d'enfants (NOC = 20), tandis que plusieurs classes ont un NOC de 0. La moyenne est de 0, ce qui signifie que la plupart des classes n'ont pas d'enfants, donc cela pourrait indiquer une hiérarchie étroite.
+![alt text](images_rapport/NOC.png)
+
+- Pour la profondeur de l'arbre d'héritage (DIT) : la classe org.jhotdraw.draw.gui.JAttributeTextField a la plus grande profondeur (DIT = 8), tandis que la plupart des classes ont une profondeur de 1 qui est le minimum. La moyenne est de 2.66, ce qui signifie que la plupart des classes ont une profondeur de 1, donc cela pourrait indiquer une hiérarchie plate.
+![alt text](images_rapport/DIT.png)
+
+Ces résultats indiquent que la hierrachie des classes est relativement plate et etroite, avec la plupart des classes ayant peu ou pas d'enfants et etant peu profondes proche de la racine.
+
+#### 3.4.2 Etude de la stabilité des classes
+
+- Pour le couplage entre les objets (CBO) : la classe org.jhotdraw.util.ResourceBundleUtil a le plus grand couplage (CBO = 175), ce qui pourrait rendre les classes avec un CBO élevé plus difficiles à maintenir et à tester.
+- Plusieurs classes ont un CBO de 0, ce qui signifie qu'elles ne sont pas couplées à d'autres classes.
+- La moyenne est de 16.16, ce qui signifie que la plupart des classes sont couplées à environ 16 autres classes. On pourrait par la suite envisagé de réduire le couplage entre les classes.
+![alt text](images_rapport/CBO.png)
+
+#### 3.4.3 Etude de la cohésion des classes
+- Pour le manque de cohésion des méthodes (LCOM) : la classe org.jhotdraw.app.EmptyBuilder a le plus grand LCOM (LCOM = 22), ce qui indique que les classes comme celle-ci ont une faible cohésion. On pourrait par la suite tenter de refactoriser ces classes pour les rendre plus cohérentes.
+- Plusieurs classes ont un LCOM de 0, ce qui signifie qu'elles ont une cohésion parfaite.
+
+- La moyenne est de 2.66, ce qui signifie que la plupart des classes ont une cohésion relativement bonne, mais il y a des améliorations possibles.
+![alt text](images_rapport/LCOM.png)
+
 
 ![sonarQube jhotdraw](./images_rapport/sonarqube-projet.png)
 
@@ -179,6 +211,16 @@ Les tests passent tous, il n'y a aucun problème d'assertions
 
 Le code contient 17212 lignes de commentaire, soit 17.1% du code. Ces commentaires sont en grande partie de la Javadoc mais il y a en a beaucoup qui sont des licences. Il y a peu de codes commentés, de plus la plupart d'entre eux sont des codes écrits en commentaires.
 
+En utilisant des tokens, nous avons pu identifier pour chaque type de commentaires, le nombre total. Pour cela, nous avons utilser des expressions régulières pour identifier les commentaires dans le code dans Visual Studio Code. (veuillez noter que vu la grandeur du projets nous ne pourrons pas identifier si les commentaires sont bien écrits ou non.)
+
+- Pour identifier les javaDoc, nous avons utilisé l'expression régulière  `\/\*\*[\s\S]*?\*\/` et nous avons trouvé  1,872 javaDoc
+- Pour les codes commentés, nous avons utilisé l'expression régulière `\/\*[\s\S]*?\*\/`. Le problème avec cette expression régulière est qu'elle prend aussi en compte la javadoc. Nous avons de ce fait parcouru les résultats affichés et essayer d'ientifier s'il y avait des commentaires de code. Nous avons trouvé quelques comme montré sur l'image ci-dessous on vois du code commenté dans la classes HSLColorSpace.java. Ce code qu'il avaitmis à pour but de montrer quelle cas est étudié dans le else, mais il n'est pas nécessaire car le code est assez clair pour comprendre ce qui se passe. On pourrait peut-être le supprimer et donner justement ce genre de détails dans la javadoc plutôt que dans le code.
+  ![alt text](images_rapport/commented_code.png)
+
+- Pour les commentaire concernant les licence, nous avons directement recherché le mot `copyright` et
+  nous avons trouvé  756 commentaires de licence.
+
+- Il y a également des codes qui ne sont pas commentés, ce qui est un problème car cela rend le code moins lisible et compréhensible pour les autres développeurs.
 ### 4.3 Dépréciation
 
 ### 4.4 Duplication de code

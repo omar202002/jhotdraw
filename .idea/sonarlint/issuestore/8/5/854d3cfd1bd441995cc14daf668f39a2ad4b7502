@@ -1,0 +1,25 @@
+
+k
+java:S1104Ú"OMake top a static final constant or non-public and provide accessors if needed.(ö„±›üÿÿÿÿ
+l
+java:S1104Û"PMake left a static final constant or non-public and provide accessors if needed.(èá‚Ùıÿÿÿÿ
+n
+java:S1104Ü"RMake bottom a static final constant or non-public and provide accessors if needed.(¤´ÜÔşÿÿÿÿ
+h
+java:S1104İ"QMake right a static final constant or non-public and provide accessors if needed.(ò®¢ı
+f
+java:S1104™"OMake top a static final constant or non-public and provide accessors if needed.(òÕ°¡
+l
+java:S1104š"PMake left a static final constant or non-public and provide accessors if needed.( ¿¢õúÿÿÿÿ
+i
+java:S1104›"RMake bottom a static final constant or non-public and provide accessors if needed.(‡Š÷
+h
+java:S1104œ"QMake right a static final constant or non-public and provide accessors if needed.(Š£Åú
+]
+java:S6201"FReplace this instanceof check and cast with 'instanceof Insets2D that'(û„×ò
+j
+java:S2975¸"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²ÈŞ
+G
+java:S2160×"+Override the "equals" method in this class.(¾£¤Õşÿÿÿÿ
+B
+java:S2160–"+Override the "equals" method in this class.(ï’Ñ¯

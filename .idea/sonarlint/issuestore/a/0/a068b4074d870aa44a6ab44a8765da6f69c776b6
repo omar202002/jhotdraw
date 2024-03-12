@@ -1,0 +1,11 @@
+
+p
+java:S2293Á"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ëè•
+V	java:S1250"<This block of commented-out lines of code should be removed.(Ð±Ó úÿÿÿÿ
+Q	java:S1257"<This block of commented-out lines of code should be removed.(¬¼Ì‡
+a
+java:S6201["FReplace this instanceof check and cast with 'instanceof Double double'(™”Åµþÿÿÿÿ
+t
+java:S3252_"YUse static access with "org.jhotdraw.draw.AttributeKeys" for "getPerpendicularHitGrowth".(öÒºÿÿÿÿÿ
+o
+java:S2975Ý"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(î‘ƒØþÿÿÿÿ

@@ -1,0 +1,11 @@
+
+i
+java:S1192B"SDefine a constant instead of duplicating this literal "Not supported yet." 3 times.(ñÏıÓ
+a
+java:S1301+"KReplace this "switch" statement by "if" statements to increase readability.(Ö±¬Ë
+A
+java:S1948"&Make "path" transient or serializable.(‘¢ø½ıÿÿÿÿ
+7	java:S131+""Add a default case to this switch.(Ö±¬Ë
+Q	java:S125H"<This block of commented-out lines of code should be removed.(›¦ŞÔ
+Q	java:S125v"<This block of commented-out lines of code should be removed.(‹Ü¿º
+R	java:S125ƒ"<This block of commented-out lines of code should be removed.(¡Õ±š

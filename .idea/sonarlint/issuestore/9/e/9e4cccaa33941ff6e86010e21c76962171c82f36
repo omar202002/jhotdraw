@@ -1,0 +1,49 @@
+
+o	java:S135ï"YReduce the total number of break and continue statements in this loop to use at most one.(ı°¿Ç
+
+java:S1186ª"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Òš†îşÿÿÿÿ
+L
+java:S1948£"0Make "paletteHandler" transient or serializable.(ê²“€şÿÿÿÿ
+C
+java:S1948¤"'Make "prefs" transient or serializable.(èİş¯üÿÿÿÿ
+G
+java:S1948¥"0Make "paletteActions" transient or serializable.(È©ë
+g
+java:S1149€"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¯Ò…î
+b
+java:S6201ó"FReplace this instanceof check and cast with 'instanceof JFrame jframe'(üª°Õÿÿÿÿÿ
+W	java:S125ö"<This block of commented-out lines of code should be removed.(Ğ©á‚ıÿÿÿÿ
+h
+java:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(€¤T
+b
+java:S6201ı"FReplace this instanceof check and cast with 'instanceof JFrame jframe'(üª°Õÿÿÿÿÿ
+b
+java:S6201ı"FReplace this instanceof check and cast with 'instanceof JFrame jframe'(üª°Õÿÿÿÿÿ
+[
+java:S6201‰"DReplace this instanceof check and cast with 'instanceof JMenu jmenu'(şß¬¨
+r
+java:S6201‹"VReplace this instanceof check and cast with 'instanceof AbstractButton abstractbutton'(ü½ÕŸûÿÿÿÿ
+k
+java:S3252œ"OUse static access with "javax.swing.WindowConstants" for "DO_NOTHING_ON_CLOSE".(Ì€ş”úÿÿÿÿ
+i
+java:S3776à"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Í÷Í‹
+C
+java:S1481´"'Remove this unused "mi" local variable.(®ì÷Ãúÿÿÿÿ
+C
+java:S1481Ü"'Remove this unused "mi" local variable.(®ì÷Ãúÿÿÿÿ
+B
+java:S1481İ"&Remove this unused "a" local variable.(€°ìàøÿÿÿÿ
+Y
+java:S3252"CUse static access with "javax.swing.SwingConstants" for "VERTICAL".(ëÖë	
+k
+java:S3252È"OUse static access with "javax.swing.WindowConstants" for "DO_NOTHING_ON_CLOSE".(€¹ÏÍüÿÿÿÿ
+M
+java:S1854"6Remove this useless assignment to local variable "mi".(¾ê”Û
+[
+java:S1134”"DTake the required action to fix the issue indicated by this comment.(çÁ…¤
+Z
+java:S1155 ">Use isEmpty() to check whether the collection is empty or not.(èà¡õıÿÿÿÿ
+
+java:S1186Õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÆÛ»ûÿÿÿÿ
+K
+java:S3985ğ"/Remove this unused private "QuitHandler" class.(¡¾°­şÿÿÿÿ

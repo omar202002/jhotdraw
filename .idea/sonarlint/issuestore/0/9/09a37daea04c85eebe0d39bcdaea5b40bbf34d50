@@ -1,0 +1,14 @@
+
+h
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ØøØš
+a
+java:S6201("FReplace this instanceof check and cast with 'instanceof Double double'(üëĞÿÿÿÿÿ
+a
+java:S6201("FReplace this instanceof check and cast with 'instanceof Double double'(üëĞÿÿÿÿÿ
+d
+java:S6201+"NReplace this instanceof check and cast with 'instanceof BezierPath bezierpath'(øãÀ²
+d
+java:S6201+"NReplace this instanceof check and cast with 'instanceof BezierPath bezierpath'(øãÀ²
+_
+java:S11340"DTake the required action to fix the issue indicated by this comment.(Ê¶Å€ûÿÿÿÿ
+7	java:S1313""Add a default case to this switch.(ÜŸ•

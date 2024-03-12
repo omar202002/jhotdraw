@@ -1,0 +1,63 @@
+
+?
+java:S1604 "(Make this anonymous inner class a lambda(ÚâÏÏ
+D
+java:S1604â"(Make this anonymous inner class a lambda(ãáÆşÿÿÿÿ
+L
+java:S19480"6Make "ownerMovementHandler" transient or serializable.(Óæ€Ì
+Q	java:S107ø"<Method has 8 parameters, which is greater than 7 authorized.(Î¶¾^
+n
+java:S3776•"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ù¨ÕŒúÿÿÿÿ
+]
+java:S6201 "FReplace this instanceof check and cast with 'instanceof JFrame jframe'(›úÎ¿
+d
+java:S6201§"HReplace this instanceof check and cast with 'instanceof JDialog jdialog'(ÃÖÀ¬ùÿÿÿÿ
+W	java:S125Ç"<This block of commented-out lines of code should be removed.(¤Æ·°ıÿÿÿÿ
+W	java:S125É"<This block of commented-out lines of code should be removed.(ÉøŠÛúÿÿÿÿ
+`
+java:S6201Í"DReplace this instanceof check and cast with 'instanceof Frame frame'(ÀàÔ‘úÿÿÿÿ
+R	java:S125à"<This block of commented-out lines of code should be removed.(¦¥ò²
+R	java:S125â"<This block of commented-out lines of code should be removed.(ÊêÑÆ
+R	java:S125ô"<This block of commented-out lines of code should be removed.(ó×¸
+]
+java:S6201—"FReplace this instanceof check and cast with 'instanceof JFrame jframe'(Š®ÿ
+_
+java:S6201™"HReplace this instanceof check and cast with 'instanceof JDialog jdialog'(ƒ©©ç
+]
+java:S6201ª"FReplace this instanceof check and cast with 'instanceof JFrame jframe'(Š®ÿ
+_
+java:S6201¬"HReplace this instanceof check and cast with 'instanceof JDialog jdialog'(ƒ©©ç
+i
+java:S3776ğ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Àİì
+W	java:S125±"<This block of commented-out lines of code should be removed.(îĞÊéûÿÿÿÿ
+W	java:S125¶"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ
+n
+java:S3776Ì"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(˜÷øÍúÿÿÿÿ
+d
+java:S6201Ó"HReplace this instanceof check and cast with 'instanceof Integer integer'(ÕÊÙËüÿÿÿÿ
+R	java:S125ê"<This block of commented-out lines of code should be removed.(×¬àš
+n
+java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(´ô‰¨øÿÿÿÿ
+H
+java:S1172Ÿ",Remove this unused method parameter "style".(´ô‰¨øÿÿÿÿ
+j
+java:S6201¢"NReplace this instanceof check and cast with 'instanceof JPopupMenu jpopupmenu'( ÅÎ·úÿÿÿÿ
+`
+java:S6201«"DReplace this instanceof check and cast with 'instanceof Frame frame'(‡µÑìÿÿÿÿÿ
+`
+java:S6201«"DReplace this instanceof check and cast with 'instanceof Frame frame'(‡µÑìÿÿÿÿÿ
+R	java:S125Ğ"<This block of commented-out lines of code should be removed.(“¸Ìå
+j
+java:S6201Ë"NReplace this instanceof check and cast with 'instanceof JPopupMenu jpopupmenu'( ÅÎ·úÿÿÿÿ
+[
+java:S6201Ó"DReplace this instanceof check and cast with 'instanceof Frame frame'(Æã¤
+j
+java:S6201	"NReplace this instanceof check and cast with 'instanceof JPopupMenu jpopupmenu'( ÅÎ·úÿÿÿÿ
+[
+java:S6201–	"DReplace this instanceof check and cast with 'instanceof Frame frame'(Æã¤
+n
+java:S6201™	"RReplace this instanceof check and cast with 'instanceof JFileChooser jfilechooser'(–ˆæÀüÿÿÿÿ
+n
+java:S6201™	"RReplace this instanceof check and cast with 'instanceof JFileChooser jfilechooser'(–ˆæÀüÿÿÿÿ
+n
+java:S6201™	"RReplace this instanceof check and cast with 'instanceof JFileChooser jfilechooser'(–ˆæÀüÿÿÿÿ

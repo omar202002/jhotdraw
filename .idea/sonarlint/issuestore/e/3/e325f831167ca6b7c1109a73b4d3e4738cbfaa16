@@ -1,0 +1,49 @@
+
+b
+java:S1301»"KReplace this "switch" statement by "if" statements to increase readability.(Ö±¬Ë
+N
+java:S2589¥"7Remove this expression which always evaluates to "true"(­‹¸²
+D
+java:S19489")Make "drawing" transient or serializable.(Òâéƒûÿÿÿÿ
+B
+java:S1948@",Make "attributes" transient or serializable.(íßÇã
+D
+java:S1905f")Remove this unnecessary cast to "Number".(¤ûÿ´ýÿÿÿÿ
+V	java:S125v"<This block of commented-out lines of code should be removed.(íÈ›åûÿÿÿÿ
+j
+java:S2975š"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ØÓ”ˆ
+W	java:S125Ò"<This block of commented-out lines of code should be removed.(€¹½ÿÿÿÿÿ
+h
+java:S1612î"LReplace this lambda with method reference 'FigureListener::areaInvalidated'.(«’Ð˜ýÿÿÿÿ
+g
+java:S1612ü"PReplace this lambda with method reference 'FigureListener::figureRequestRemove'.(‘îäí
+d
+java:S1612ƒ"HReplace this lambda with method reference 'FigureListener::figureAdded'.(à€Çüÿÿÿÿ
+f
+java:S1612Š"JReplace this lambda with method reference 'FigureListener::figureRemoved'.(Å¦úêøÿÿÿÿ
+f
+java:S1612•"JReplace this lambda with method reference 'FigureListener::figureChanged'.(¾¶… øÿÿÿÿ
+f
+java:S1612š"JReplace this lambda with method reference 'FigureListener::figureChanged'.(Þ’™Óüÿÿÿÿ
+i
+java:S1612 "MReplace this lambda with method reference 'FigureListener::attributeChanged'.(Î½±ôûÿÿÿÿ
+m
+java:S1612§"QReplace this lambda with method reference 'FigureListener::figureHandlesChanged'.(¥š¡ªÿÿÿÿÿ
+8	java:S131»""Add a default case to this switch.(Ö±¬Ë
+W	java:S125Ø"<This block of commented-out lines of code should be removed.(Àù¢¢ÿÿÿÿÿ
+S
+java:S1854ë"<Remove this useless assignment to local variable "oldValue".(Ý³ƒ
+D
+java:S1481ë"-Remove this unused "oldValue" local variable.(Ý³ƒ
+X
+java:S1854ø"<Remove this useless assignment to local variable "oldValue".(È¿ÄÎùÿÿÿÿ
+I
+java:S1481ø"-Remove this unused "oldValue" local variable.(È¿ÄÎùÿÿÿÿ
+X
+java:S1854ƒ"<Remove this useless assignment to local variable "oldValue".(¢ý¢Ãÿÿÿÿÿ
+I
+java:S1481ƒ"-Remove this unused "oldValue" local variable.(¢ý¢Ãÿÿÿÿÿ
+X
+java:S1854‘"<Remove this useless assignment to local variable "oldValue".(þ÷âêúÿÿÿÿ
+I
+java:S1481‘"-Remove this unused "oldValue" local variable.(þ÷âêúÿÿÿÿ

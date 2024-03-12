@@ -1,0 +1,19 @@
+
+x
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "image".(Ï‚ÿùÿÿÿÿ
+x
+java:S1488#"]Immediately return this expression instead of assigning it to the temporary variable "image".(Ï‚ÿùÿÿÿÿ
+j
+java:S62010"TReplace this instanceof check and cast with 'instanceof BufferedImage bufferedimage'(¦öÚù
+`
+java:S32524"JUse static access with "java.awt.image.Raster" for "createWritableRaster".(¬‹¦»
+o
+java:S6201>"TReplace this instanceof check and cast with 'instanceof BufferedImage bufferedimage'(‰åöÙúÿÿÿÿ
+V	java:S125f"<This block of commented-out lines of code should be removed.(¶£ôÃüÿÿÿÿ
+i
+java:S6201‚"MReplace this instanceof check and cast with 'instanceof BufferedImage bimage'(‰åöÙúÿÿÿÿ
+W	java:S125†"<This block of commented-out lines of code should be removed.(úØß×ıÿÿÿÿ
+u
+java:S2142‹"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+6
+java:S1659¶"Declare "h" on a separate line.(Í¤¾‡

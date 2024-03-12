@@ -1,0 +1,24 @@
+
+g	java:S117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(∑“˝ê
+u
+java:S1149p"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Äπﬁ“
+W	java:S107Á"<Method has 8 parameters, which is greater than 7 authorized.(◊‘˘∏˛ˇˇˇˇ
+W	java:S107¯"<Method has 9 parameters, which is greater than 7 authorized.(¡‡¥€˚ˇˇˇˇ
+T
+java:S47191"9Replace charset name argument with StandardCharsets.UTF_8(Ö§∂˙˚ˇˇˇˇ
+á
+java:S1130T"qRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.(ˆ—¨—
+É
+java:S1130É"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(∞≤ë»
+à
+java:S1130è"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(è≠ÈΩ˝ˇˇˇˇ
+à
+java:S1130ô"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(·êìß˛ˇˇˇˇ
+N
+java:S1854Ÿ"7Remove this useless assignment to local variable "buf".(œ‘∂Æ
+F
+java:S1481—"*Remove this unused "total" local variable.(ÛÀç†¸ˇˇˇˇ
+^
+java:S2445“"G"in" is a method parameter, and should not be used for synchronization.(ÀÎ»∫
+^
+java:S6201å"BReplace this instanceof check and cast with 'instanceof File file'(æí◊ô¯ˇˇˇˇ

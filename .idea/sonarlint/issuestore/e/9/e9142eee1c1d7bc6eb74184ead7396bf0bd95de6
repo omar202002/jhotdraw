@@ -1,0 +1,14 @@
+
+b
+java:S1192V"LDefine a constant instead of duplicating this literal "Arial Black" 3 times.(…Œ‚≤
+V	java:S125g"<This block of commented-out lines of code should be removed.(É˛ôœ˝ˇˇˇˇ
+P
+java:S1854é"9Remove this useless assignment to local variable "fName".(πÃ‘˛
+A
+java:S1481é"*Remove this unused "fName" local variable.(πÃ‘˛
+i
+java:S6201ô"RReplace this instanceof check and cast with 'instanceof FontFaceNode fontfacenode'(‰ä¢ÿ
+m
+java:S6201ù"VReplace this instanceof check and cast with 'instanceof FontFamilyNode fontfamilynode'(π∂‘„
+z
+java:S6201°"^Replace this instanceof check and cast with 'instanceof FontCollectionNode fontcollectionnode'(œÕ™øˇˇˇˇˇ

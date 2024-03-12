@@ -1,0 +1,11 @@
+
+R
+java:S1854p"<Remove this useless assignment to local variable "oldValue".(´Ú‰Â
+C
+java:S1481p"-Remove this unused "oldValue" local variable.(´Ú‰Â
+Q
+java:S1854v"<Remove this useless assignment to local variable "oldValue".(è½!
+B
+java:S1481v"-Remove this unused "oldValue" local variable.(è½!
+o
+java:S2975Ç"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(‚ãùüÿÿÿÿ

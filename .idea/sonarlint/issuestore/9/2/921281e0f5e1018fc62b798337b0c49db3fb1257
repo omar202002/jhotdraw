@@ -1,0 +1,21 @@
+
+_
+java:S6208ß"CMerge the previous cases into this one using comma-separated label.(¥Ñ§ÿÿÿÿÿ
+u
+java:S1192ò"YDefine a constant instead of duplicating this literal "org.jhotdraw.draw.Labels" 3 times.(¸ÿÙÎıÿÿÿÿ
+I
+java:S1121".Extract the assignment out of this expression.(İî÷Ùøÿÿÿÿ
+W	java:S125”"<This block of commented-out lines of code should be removed.(Ÿ£±Ïûÿÿÿÿ
+W	java:S125–"<This block of commented-out lines of code should be removed.(Ÿ£±Ïûÿÿÿÿ
+K
+java:S1874±"4Remove this use of "BUTTON2_MASK"; it is deprecated.(¡˜úÆ
+W	java:S125Õ"<This block of commented-out lines of code should be removed.(Ã ³¥ÿÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(çƒĞõúÿÿÿÿ
+`
+java:S3358²"DExtract this nested ternary operation into an independent statement.(ÑõÃ„úÿÿÿÿ
+`
+java:S3358´"DExtract this nested ternary operation into an independent statement.(”ŒİÚûÿÿÿÿ
+7	java:S131½""Add a default case to this switch.( à×H
+T
+java:S1144›"8Remove this unused private "fireAreaInvalidated" method.(ëçñ¶ıÿÿÿÿ

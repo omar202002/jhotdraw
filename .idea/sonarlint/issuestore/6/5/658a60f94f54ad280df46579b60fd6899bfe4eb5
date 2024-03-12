@@ -1,7 +1,7 @@
 
-^
-java:S2259m"HA "NullPointerException" could be thrown; "drawBounds" is nullable here.(∆Î“î
 ]
 java:S2259`"HA "NullPointerException" could be thrown; "drawBounds" is nullable here.(˝äÈZ
+^
+java:S2259m"HA "NullPointerException" could be thrown; "drawBounds" is nullable here.(∆Î“î
 é
 java:S1130J"xRemove the declaration of thrown exception 'java.awt.print.PrinterException', as it cannot be thrown from method's body.(—ä”ﬂ

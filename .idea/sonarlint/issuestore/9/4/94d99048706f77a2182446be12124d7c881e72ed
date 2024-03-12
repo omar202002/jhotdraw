@@ -73,8 +73,8 @@ java:S4144"aUpdate this method so that its implementation is not identical to
 n
 java:S3776Ψ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(πιΛψÿÿÿÿ
 E
-java:S3398η".Move this method into "SelectionPanelHandler".(³ιοτ
+java:S3398ƒ".Move this method into "SelectionPanelHandler".(φή΅Ε
 E
 java:S3398Α".Move this method into "SelectionPanelHandler".(—υ΅
 E
-java:S3398ƒ".Move this method into "SelectionPanelHandler".(φή΅Ε
+java:S3398η".Move this method into "SelectionPanelHandler".(³ιοτ

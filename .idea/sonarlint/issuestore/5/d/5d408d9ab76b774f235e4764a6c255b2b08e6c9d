@@ -4,21 +4,21 @@ java:S6208—"CMerge the previous cases into this one using comma-separated labe
 Y
 java:S6208¨"CMerge the previous cases into this one using comma-separated label.(é˜Ù
 O
+java:S2589Ë"8Remove this expression which always evaluates to "false"(Œ´©É
+S
+java:S2589Æ"7Remove this expression which always evaluates to "true"(­òÖÐÿÿÿÿÿ
+N
+java:S2589Ì"7Remove this expression which always evaluates to "true"(¾ÅÀØ
+O
 java:S2589È"8Remove this expression which always evaluates to "false"(àÙ’¬
+N
+java:S2589É"7Remove this expression which always evaluates to "true"(Î™¦ç
 M
 java:S2589Ã"7Remove this expression which always evaluates to "true"(È°¶~
 T
 java:S2589Â"8Remove this expression which always evaluates to "false"(„æ¥žýÿÿÿÿ
-N
-java:S2589É"7Remove this expression which always evaluates to "true"(Î™¦ç
 T
 java:S2589Å"8Remove this expression which always evaluates to "false"(ÊˆËôþÿÿÿÿ
-O
-java:S2589Ë"8Remove this expression which always evaluates to "false"(Œ´©É
-N
-java:S2589Ì"7Remove this expression which always evaluates to "true"(¾ÅÀØ
-S
-java:S2589Æ"7Remove this expression which always evaluates to "true"(­òÖÐÿÿÿÿÿ
 l
 java:S30084"VRename this field "IS_ROLLOVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É³˜¦
 q

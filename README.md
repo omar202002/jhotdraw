@@ -181,6 +181,16 @@ Les tests passent tous, il n'y a aucun problème d'assertions
 
 Le code contient 17212 lignes de commentaire, soit 17.1% du code
 
+En utilisant des tokens, nous avons pu identifier pour chaque type de commentaires, le nombre total. Pour cela, nous avons utilser des expressions régulières pour identifier les commentaires dans le code dans Visual Studio Code. (veuillez noter que vu la grandeur du projets nous ne pourrons pas identifier si les commentaires sont bien écrits ou non.)
+
+- Pour identifier les javaDoc, nous avons utilisé l'expression régulière  `\/\*\*[\s\S]*?\*\/` et nous avons trouvé  1,872 javaDoc
+- Pour les codes commentés, nous avons utilisé l'expression régulière `\/\*[\s\S]*?\*\/`. Le problème avec cette expression régulière est qu'elle prend aussi en compte la javadoc. Nous avons de ce fait parcouru les résultats affichés et essayer d'ientifier s'il y avait des commentaires de code. Nous avons trouvé quelques comme montré sur l'image ci-dessous on vois du code commenté dans la classes HSLColorSpace.java. Ce code qu'il avaitmis à pour but de montrer quelle cas est étudié dans le else, mais il n'est pas nécessaire car le code est assez clair pour comprendre ce qui se passe. On pourrait peut-être le supprimer et donner justement ce genre de détails dans la javadoc plutôt que dans le code.
+  ![alt text](images_rapport/commented_code.png)
+
+- Pour les commentaire concernant les licence, nous avons directement recherché le mot `copyright` et
+  nous avons trouvé  756 commentaires de licence.
+
+- Il y a également des codes qui ne sont pas commentés, ce qui est un problème car cela rend le code moins lisible et compréhensible pour les autres développeurs.
 ### 4.3 Dépréciation
 
 ### 4.4 Duplication de code

@@ -54,7 +54,7 @@ Lorsque vous exécutez l'exemple, vous devriez voir une interface graphique repr
   Il est juste indiqué comment générer des jars(`mvn clean install`) nécéssaire pour lancer le projet mais aucune commande n'est donnée pour exécuter celui-ci.
 
 - les informations en termes d’installation ne sont pas suffisantes. Il manque plusieurs choses comme les commandes maven pour la documentation, les tests, les dépendances, etc. Et rien n'est précisé quand à la façon de lancer le projet.
-Ces différentes informations sont pourtant importantes pour la compréhension et l'utilisation du projet.
+  Ces différentes informations sont pourtant importantes pour la compréhension et l'utilisation du projet.
 
 Néanmoins, les informations conceranant les dernières modifications éffectués sont bien précisées dans le readme.
 
@@ -69,11 +69,10 @@ Néanmoins, les informations conceranant les dernières modifications éffectué
   L'image ci-dessous montre un graphe résumant les commits de chaque contributeurs.
   ![alt text](images_rapport/graphe_commit.png)
 
-- Deux branches sont utilisées dans le projet : La branche `develop` et la branche `master`. 
-La branche `develop` est la branche par défaut. La branche `main` est fait parti de la section `active branches` 
+- Deux branches sont utilisées dans le projet : La branche `develop` et la branche `master`.
+  La branche `develop` est la branche par défaut. La branche `main` est fait parti de la section `active branches`
 - Le mécanisme des pull request n'est jamais utilisé dans le projet.
-![alt text](images_rapport/Branches.png)
-
+  ![alt text](images_rapport/Branches.png)
 
 ## 3 Architecture logicielle (Analyse de jhotdraw-core)
 
@@ -214,14 +213,25 @@ Cela signifie que ces packages dépendent les uns des autres, ce qui n'est pas u
   - min: 2(org.jhotdraw.draw.print)
   - moyenne: 209/15 = 13.9
 
+Le référentiel jhotdraw contient 15 packages dans le module org.jhotdraw.draw, avec un minimum de 2 classes dans le package `org.jhotdraw.draw.print`, un maximum de 34 classes dans le package `org.jhotdraw.draw.action` et un en moyenne 13,9 classes par package.
+
+Le module `org.jhotdraw.draw` contient plusieurs hiérarchies de packages, notamment `org.jhotdraw.draw`, `org.jhotdraw.draw.action`, `org.jhotdraw.draw.connector`, `org.jhotdraw.draw.constrainer`, `org.jhotdraw.draw.decoration`, `org.jhotdraw.draw.event`, `org.jhotdraw.draw.figure`, `org.jhotdraw.draw.handle`, `org.jhotdraw.draw.io`, `org.jhotdraw.draw.layouter`, `org.jhotdraw.draw.liner`, `org.jhotdraw.draw.locator`, `org.jhotdraw.draw.print`, `org.jhotdraw.draw.text` et `org.jhotdraw.draw.tool` packages.
+
+La plupart des classes sont réparties dans ces packages, le package `org.jhotdraw.draw.action` contenant le plus de classes (34), suivi du package `org.jhotdraw.draw.figure` (31) et du package `org.jhotdraw.draw.even` (31)
+
+Le module org.jhotdraw.draw contient également des packages non-feuilles, tels que `org.jhotdraw.draw.action`, `org.jhotdraw.draw.figure`, `org.jhotdraw.draw.event`, `org.jhotdraw.draw.locator`,`org.jhotdraw.draw.print` et `org.jhotdraw.draw.event`, qui contiennent des classes organisées en sous-paquets.
+
+Il n'existe pas de modèles clairs de packages comportant le plus de classes dans une hiérarchie et ayant également le plus de classes dans d'autres hiérarchies. Cependant, les packages org.jhotdraw.draw.action, org.jhotdraw.draw.figure et org.jhotdraw.draw.event contiennent le plus de classes dans leurs hiérarchies respectives.
+
 ### 3.4 Organisation des classes
 
 #### 3.4.1 Etude de la hiérarchie des classes
+
 - Pour le nombre d'enfant (NOC) : la classe org.jhotdraw.draw.ReverseList a le plus d'enfants (NOC = 20), tandis que plusieurs classes ont un NOC de 0. La moyenne est de 0, ce qui signifie que la plupart des classes n'ont pas d'enfants, donc cela pourrait indiquer une hiérarchie étroite.
-![alt text](images_rapport/NOC.png)
+  ![alt text](images_rapport/NOC.png)
 
 - Pour la profondeur de l'arbre d'héritage (DIT) : la classe org.jhotdraw.draw.gui.JAttributeTextField a la plus grande profondeur (DIT = 8), tandis que la plupart des classes ont une profondeur de 1 qui est le minimum. La moyenne est de 2.66, ce qui signifie que la plupart des classes ont une profondeur de 1, donc cela pourrait indiquer une hiérarchie plate.
-![alt text](images_rapport/DIT.png)
+  ![alt text](images_rapport/DIT.png)
 
 Ces résultats indiquent que la hierrachie des classes est relativement plate et etroite, avec la plupart des classes ayant peu ou pas d'enfants et etant peu profondes proche de la racine.
 
@@ -230,22 +240,21 @@ Ces résultats indiquent que la hierrachie des classes est relativement plate et
 - Pour le couplage entre les objets (CBO) : la classe org.jhotdraw.util.ResourceBundleUtil a le plus grand couplage (CBO = 175), ce qui pourrait rendre les classes avec un CBO élevé plus difficiles à maintenir et à tester.
 - Plusieurs classes ont un CBO de 0, ce qui signifie qu'elles ne sont pas couplées à d'autres classes.
 - La moyenne est de 16.16, ce qui signifie que la plupart des classes sont couplées à environ 16 autres classes. On pourrait par la suite envisagé de réduire le couplage entre les classes.
-![alt text](images_rapport/CBO.png)
+  ![alt text](images_rapport/CBO.png)
 
 #### 3.4.3 Etude de la cohésion des classes
+
 - Pour le manque de cohésion des méthodes (LCOM) : la classe org.jhotdraw.app.EmptyBuilder a le plus grand LCOM (LCOM = 22), ce qui indique que les classes comme celle-ci ont une faible cohésion. On pourrait par la suite tenter de refactoriser ces classes pour les rendre plus cohérentes.
 - Plusieurs classes ont un LCOM de 0, ce qui signifie qu'elles ont une cohésion parfaite.
 
 - La moyenne est de 2.66, ce qui signifie que la plupart des classes ont une cohésion relativement bonne, mais il y a des améliorations possibles.
-![alt text](images_rapport/LCOM.png)
-
+  ![alt text](images_rapport/LCOM.png)
 
 ![sonarQube jhotdraw](./images_rapport/sonarqube-projet.png)
 
 ### 4.1 Tests
 
-Il y a 21 de tests et 5 classes de test.
-
+```
 jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AttributesTest.java: 1 méthodes de test et 3 Assertions
 
 jhotdraw-core/src/test/java/org/jhotdraw/draw/figure/AbstractFigureTest.java: 2 méthodes de test et 6 Assertions
@@ -255,12 +264,15 @@ jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/BezierPathTest.java: 4 méth
 jhotdraw-utils/src/test/java/org/jhotdraw/geom/path/MutablePath2DTest.java: 4 méthodes de test et 5 Assertions
 
 jhotdraw-io/src/test/java/org/jhotdraw/io/DOMStorableInputOutputFormatTest.java: 10 méthodes de test et 19 Assertions
+```
 
-Ces tests couvrent 1.2% du code(50k lines to cover), ce qui est très bas.
+- De cette analyse, nous pouvons voir que le nombre de tests dans le référentiel jhotdraw est relativement faible, avec seulement 21 méthodes de test et 5 classes de tests. Le nombre d’affirmations est également faible, avec seulement 41 affirmations au total. Cela suggère que les tests ne sont peut-être pas suffisamment complets pour couvrir toutes les fonctionnalités de la base de code.
 
-Ce sont des tests unitaires.
+- La couverture des tests est également faible, avec seulement 1,2 %(50k lines to cover) du code couvert par les tests. Il s'agit d'un taux de couverture relativement faible, et cela suggère qu'il peut y avoir des parties importantes de la base de code qui ne sont pas testées. Cela peut rendre plus difficile la garantie de l’exactitude et de la fiabilité du code.
 
-Les tests passent tous, il n'y a aucun problème d'assertions
+- Les tests du référentiel jhotdraw sont des tests unitaires, conçus pour tester des unités individuelles de code de manière isolée. Il s’agit d’une bonne pratique, car elle permet des tests plus ciblés et plus spécifiques de composants individuels.
+
+- Tous les tests réussissent et il n’y a aucun problème avec les assertions. Cela suggère que les tests sont bien conçus et sont capables de détecter avec précision les problèmes dans le code. Cependant, le faible taux de couverture suggère qu'il peut y avoir des zones de la base de code qui ne sont pas testées, et cela doit être résolu pour garantir l'exactitude et la fiabilité du code.
 
 ### 4.2 Commentaires
 
@@ -268,19 +280,30 @@ Le code contient 17212 lignes de commentaire, soit 17.1% du code. Ces commentair
 
 En utilisant des tokens, nous avons pu identifier pour chaque type de commentaires, le nombre total. Pour cela, nous avons utilser des expressions régulières pour identifier les commentaires dans le code dans Visual Studio Code. (veuillez noter que vu la grandeur du projets nous ne pourrons pas identifier si les commentaires sont bien écrits ou non.)
 
-- Pour identifier les javaDoc, nous avons utilisé l'expression régulière  `\/\*\*[\s\S]*?\*\/` et nous avons trouvé  1,872 javaDoc
+- Pour identifier les javaDoc, nous avons utilisé l'expression régulière `\/\*\*[\s\S]*?\*\/` et nous avons trouvé 1,872 javaDoc
 - Pour les codes commentés, nous avons utilisé l'expression régulière `\/\*[\s\S]*?\*\/`. Le problème avec cette expression régulière est qu'elle prend aussi en compte la javadoc. Nous avons de ce fait parcouru les résultats affichés et essayer d'ientifier s'il y avait des commentaires de code. Nous avons trouvé quelques comme montré sur l'image ci-dessous on vois du code commenté dans la classes HSLColorSpace.java. Ce code qu'il avaitmis à pour but de montrer quelle cas est étudié dans le else, mais il n'est pas nécessaire car le code est assez clair pour comprendre ce qui se passe. On pourrait peut-être le supprimer et donner justement ce genre de détails dans la javadoc plutôt que dans le code.
   ![alt text](images_rapport/commented_code.png)
 
 - Pour les commentaire concernant les licence, nous avons directement recherché le mot `copyright` et
-  nous avons trouvé  756 commentaires de licence.
+  nous avons trouvé 756 commentaires de licence.
 
 - Il y a également des codes qui ne sont pas commentés, ce qui est un problème car cela rend le code moins lisible et compréhensible pour les autres développeurs.
+
 ### 4.3 Dépréciation
+
+J'ai analysé la base de code et constaté qu'il n'y avait pas de classes ou de méthodes obsolètes dans les modules `jhotdraw-core`, `jhotdraw-utils` et `jhotdraw-io`. Par conséquent, il n’existe aucune instance de code obsolète appelé par du code non obsolète.
+
+Cependant, j'ai trouvé des méthodes obsolètes dans le module `jhotdraw-app`, qui ne fait pas partie de la bibliothèque principale et est utilisé pour créer des applications basées sur le framework JHotDraw. Plus précisément, la classe `FigureCompositeFigure` contient plusieurs méthodes obsolètes, telles que `addFigure`, `removeFigure` et `replaceFigure`, qui ont été remplacées respectivement par les méthodes `add`, `delete` et `set`.
+
+De plus, la classe `DrawingEditor` contient une méthode obsolète appelée `setDrawingView`, qui a été remplacée par la méthode `setActiveView`.
+
+Il est important de noter que les méthodes obsolètes sont toujours disponibles pour des raisons de compatibilité ascendante, mais leur utilisation est déconseillée au profit des nouvelles méthodes. Les développeurs doivent mettre à jour leur code pour utiliser les nouvelles méthodes afin de garantir que leurs applications sont à jour et profitent des dernières fonctionnalités et améliorations.
 
 ### 4.4 Duplication de code
 
-Il y a 20919 lignes dupliqués dans tout le projet, soit 17.0% du code. Il y a 866 blocs dupliqués et 237 fichiers dupliqués
+- Il y a 20919 lignes dupliqués dans tout le projet, soit 17.0% du code. Il y a 866 blocs dupliqués et 237 fichiers dupliqués
+
+- Pour résoudre le code dupliqué, les développeurs pourraient envisager de refactoriser le code dupliqué en une méthode ou une classe partagée, ou de supprimer le code dupliqué s'il n'est plus nécessaire. De plus, les développeurs pourraient envisager d’utiliser des outils d’analyse de code pour identifier et mettre en évidence le code dupliqué dans la base de code.
 
 ### 4.5 God Classes
 
@@ -292,46 +315,31 @@ lines of code: 83718
 - le nombre de méthodes par classe:
 
   - min: 0
-  - max: 90
+  - max: 90 (`SVGInputFormat.java`)
   - moyenne: 9
   - médian: 6
 
 - le nombre de variables d’instances par classe:
 
-  - min:
-  - max:
-  - moyenne:
-  - médian:
+  - min:0
+  - max: 112 (`SVGInputFormat.java`)
+  - moyenne: 5,5
+  - médian: 3
 
 - le nombre de lignes de code par classe:
+
   - min:1
-  - max:2243(jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/svg/io/SVGInputFormat.java)
+  - max:2243(`SVGInputFormat.java`)
   - moyenne: 127
   - médian: 72
-- God classes: je pense `SVGInputFormat.java`
-  `plusier ligne de code:`
-  jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/svg/io/SVGInputFormat.java
-  3,251
-  jhotdraw-gui/src/main/java/org/jhotdraw/gui/action/ButtonFactory.java
-  1,982
-  jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/io/ODGInputFormat.java
-  1,928
-  jhotdraw-core/src/main/java/org/jhotdraw/draw/DefaultDrawingView.java
-  1,580
-  jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/svg/io/SVGOutputFormat.java
-  1,389
-  jhotdraw-gui/src/main/java/org/jhotdraw/gui/plaf/palette/PaletteToolBarUI.java
-  1,337
-  jhotdraw-utils/src/main/java/org/jhotdraw/io/Base64.java
-  1,321
-  jhotdraw-utils/src/main/java/org/jhotdraw/geom/path/BezierPath.java
-  1,221
-  jhotdraw-gui/src/main/java/org/jhotdraw/gui/JSheet.java
-  1,217
-  jhotdraw-core/src/main/java/org/jhotdraw/draw/AbstractDrawingView.java
-  1,122
-  jhotdraw-utils/src/main/java/org/jhotdraw/io/StreamPosTokenizer.java
-  1,072
+
+- Sur la base de ces métriques, nous pouvons identifier certaines « god class » potentielles dans la base de code. Il s'agit de classes qui possèdent un nombre élevé de méthodes, de variables d'instance ou de lignes de code par rapport aux valeurs moyennes ou médianes.
+
+- Par exemple, la classe `SVGInputFormat.java` possède 90 méthodes, 112 variables d'instance et 3 251 lignes de code, ce qui est nettement supérieur aux valeurs moyennes et médianes. Cette classe semble être une « god class » qui peut être difficile à comprendre et à maintenir.
+
+- Après une analyse plus approfondie, nous pouvons voir que la classe `SVGInputFormat`.java utilise de nombreuses classes et méthodes internes pour analyser et convertir les fichiers SVG en figures JHotDraw. Cette classe est probablement un composant complexe et spécialisé de la base de code qui nécessite un degré élevé de complexité interne pour gérer les subtilités des fichiers SVG.
+
+- Pour traiter les « god class » dans la base de code, les développeurs pourraient envisager de refactoriser le code pour diviser les classes complexes en composants plus petits et plus faciles à gérer. Cela peut contribuer à améliorer la maintenabilité et la lisibilité de la base de code, et à réduire le risque de bogues et d'incohérences. De plus, les développeurs pourraient envisager d'utiliser des modèles de conception tels que le principe de responsabilité unique (SRP) et le principe d'inversion de dépendance (DIP) pour guider le processus de refactorisation.
 
 #### 4.6 Analyse des méthodes
 
@@ -434,10 +442,6 @@ En remplaçant les constantes numériques par des constantes nommées, nous pouv
 #### 5.3 Structure du code
 
 - Dans la plupart des classes que nous avons parcourues, toutes les varibles d'instances sont regroupées au début de la structure de la classes. Cela rend le code plus lisible et plus facile à comprendre.
-
-- 
-
-```
 
 #### 5.4 Code mort
 

@@ -388,10 +388,6 @@ En remplaçant les constantes numériques par des constantes nommées, nous pouv
 
 - Dans la plupart des classes que nous avons parcourues, toutes les varibles d'instances sont regroupées au début de la structure de la classes. Cela rend le code plus lisible et plus facile à comprendre.
 
--
-
-````
-
 #### 5.4 Code mort
 
 Après avoir examiné le référentiel `jhotdraw`, je n'ai trouvé aucun signe évident de code mort. Cependant, certaines classes et méthodes ne sont pas utilisées dans l'implémentation actuelle, mais elles font partie de l'API et pourront être utilisées à l'avenir.
@@ -433,7 +429,7 @@ This projects jars are not yet published to maven central or GitHub packages. To
   <artifactId>jhotdraw-core</artifactId>
   <version>10.0-SNAPSHOT</version>
 </dependency>
-````
+```
 
 In module `jhotdraw-samples-mini` are small examples mostly highlighting one aspect of JHotdraw usage.
 Additional to that are in module `jhotdraw-samples-misc` more sophisticated examples of using this library.

@@ -75,7 +75,7 @@ La branche `develop` est la branche par défaut. La branche `main` est fait part
 ![alt text](images_rapport/Branches.png)
 
 
-## 3 Architecture logicielle
+## 3 Architecture logicielle (Analyse de jhotdraw-core)
 
 jhotdraw-core
 
@@ -116,7 +116,62 @@ Cette dépendance est utilisée par le plugin maven-checkstyle-plugin.
 
 ### 3.2 Organisation en paquetages
 
+#### 3.2.1 Paquetages
 Il y a 14 paquetages et le paquetage org.jhotdraw.draw
+
+#### 3.2.2 Lien entre les paquetages
+Dans la liste ci-dessous, nous avons répertorié pour chaque paquetage les paquetages dont il dépend.
+
+- jhotdraw-actions : jhotdraw, jhotdraw-api, jhotdraw-core, jhotdraw-datatransfer, jhotdraw-utils
+
+- jhotdraw-api : jhotdraw
+
+- jhotdraw-app : jhotdraw, jhotdraw-actions, jhotdraw-api, jhotdraw-gui, jhotdraw-utils
+
+- jhotdraw-core : jhotdraw, jhotdraw-api, jhotdraw-datatransfer, jhotdraw-utils
+
+- jhotdraw-datatransfer : jhotdraw, jhotdraw-api, jhotdraw-utils
+
+- jhotdraw-gui : jhotdraw, jhotdraw-actions, jhotdraw-api, jhotdraw-core, jhotdraw-utils
+
+- jhotdraw-io : jhotdraw, jhotdraw-core, jhotdraw-datatransfer, jhotdraw-utils, jhotdraw-xml
+
+- jhotdraw-samples : jhotdraw, jhotdraw-samples-mini, jhotdraw-samples-misc
+
+- jhotdraw-samples-mini : jhotdraw-actions, jhotdraw-api, jhotdraw-core, jhotdraw-gui, jhotdraw-io, jhotdraw-samples, jhotdraw-samples-misc, jhotdraw-utils, jhotdraw-xml
+
+- jhotdraw-samples-misc : jhotdraw-actions, jhotdraw-api, jhotdraw-app, jhotdraw-core, jhotdraw-datatransfer, jhotdraw-gui, jhotdraw-io, jhotdraw-samples, jhotdraw-utils, jhotdraw-xml
+
+- jhotdraw-utils : jhotdraw
+
+- jhotdraw-xml : jhotdraw, jhotdraw-api,jhotdraw-utils
+
+D'après cette liste, on peut donc confiremer que les packages ne soient pas strictement organisés en couches. Normalement dans une architecture en couches, les packages de bas niveau ne devraient pas dépendre des packages de haut niveau. Cependant, dans ce projet, nous voyons que les packages de bas niveau dépendent des packages de haut niveau. Par exemple, les packages jhotdraw-core et jhotdraw-utils dépendent du package jhotdraw.
+
+Cette liste nous dit également qu'il y a un cycle de dépendances entre certains packages. Les packages jhotdraw-samples, jhotdraw-samples-mini, et jhotdraw-samples-misc décrivent un cycle de dépendance.
+
+Voici comment le cycle de dépendance est formé :
+
+- jhotdraw-samples dépend de jhotdraw-samples-mini et jhotdraw-samples-misc.
+- jhotdraw-samples-mini dépend de jhotdraw-samples et jhotdraw-samples-misc.
+- jhotdraw-samples-misc dépend de jhotdraw-samples et jhotdraw-samples-mini.
+
+Cela signifie que ces packages dépendent les uns des autres, ce qui n'est pas une bonne pratique en matière d'architecture logicielle.
+
+
+
+#### 3.2.3  Hierrachie des paquetages
+
+- Il y a en moyenne 3 niveaux de paquetages dans le projet
+- La hierrachie des paquetages pour les test suit la même hierrachie que pour le code source.
+- Il existe des hierarchies paralleles pour les tests et le code source.
+- Tous les paquetages contiennent des classes.
+
+#### 3.2.4  Analyse des nom de paquetages
+- Le préfixe jhotdraw indique probablement que ces packages font partie du projet JHotDraw. JHotDraw est un framework Java pour la création d'applications de dessin technique et graphique, qui est connu pour utiliser le design pattern MVC (Modèle-Vue-Contrôleur).
+- Les packages comme jhotdraw.draw.action et jhotdraw.draw suggèrent que le projet suit une certaine forme de design pattern MVC. Le package action pourrait contenir des classes qui gèrent la logique de l'application (le "Contrôleur" dans MVC), tandis que le package draw pourrait contenir des classes qui gèrent la représentation des données (la "Vue" dans MVC).
+- Il n'y a aucune mention concernant une base de données dans les noms des paquetages. Si c'était le cas, nous nous attendrions à voir des noms de paquetages tels que jhotdraw.db par exemple.
+- De façon générale, les noms des paquetages peuvent nous donner une idée de la structure du projet et de la façon dont les classes sont organisées.
 
 ### 3.3 Répartition des classes dans les paquetages
 

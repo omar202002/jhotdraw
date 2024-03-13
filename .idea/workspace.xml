@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab302ed3-2daa-4d59-9d20-876d74083af5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-actions/jhotdraw-actions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/jhotdraw-actions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-api/jhotdraw-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-api/jhotdraw-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-app/jhotdraw-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-app/jhotdraw-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-core/jhotdraw-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/jhotdraw-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-datatransfer/jhotdraw-datatransfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-datatransfer/jhotdraw-datatransfer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-gui/jhotdraw-gui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-gui/jhotdraw-gui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-io/jhotdraw-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-io/jhotdraw-io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-mini/jhotdraw-samples-mini.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-mini/jhotdraw-samples-mini.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/jhotdraw-samples-misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/jhotdraw-samples-misc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-utils/jhotdraw-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-utils/jhotdraw-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-xml/jhotdraw-xml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-xml/jhotdraw-xml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2dawyMKjVbq9Oo4jfEB7GtJwFTi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Projet_GL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-3183f394aec4-38982a12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab302ed3-2daa-4d59-9d20-876d74083af5" name="Changes" comment="" />
+      <created>1710259761099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710259761099</updated>
+      <workItem from="1710259765331" duration="2150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

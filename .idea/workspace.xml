@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab302ed3-2daa-4d59-9d20-876d74083af5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-actions/jhotdraw-actions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/jhotdraw-actions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-api/jhotdraw-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-api/jhotdraw-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-app/jhotdraw-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-app/jhotdraw-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/jhotdraw-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/jhotdraw-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-datatransfer/jhotdraw-datatransfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-datatransfer/jhotdraw-datatransfer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-gui/jhotdraw-gui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-gui/jhotdraw-gui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-io/jhotdraw-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-io/jhotdraw-io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-mini/jhotdraw-samples-mini.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-mini/jhotdraw-samples-mini.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/jhotdraw-samples-misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/jhotdraw-samples-misc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-utils/jhotdraw-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-utils/jhotdraw-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-xml/jhotdraw-xml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-xml/jhotdraw-xml.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +18,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dawyMKjVbq9Oo4jfEB7GtJwFTi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +33,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Omar OK/Documents/GL_cha/GL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710259761099</updated>
       <workItem from="1710259765331" duration="2150000" />
+      <workItem from="1710422086470" duration="623000" />
     </task>
     <servers />
   </component>

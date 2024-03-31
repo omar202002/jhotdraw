@@ -676,26 +676,7 @@ public abstract class AbstractAttributedCompositeFigure extends AbstractAttribut
 
   public void drawFigure(Graphics2D g) {
     drawChildren(g);
-    if (attr().get(FILL_COLOR) != null) {
-      g.setColor(attr().get(FILL_COLOR));
-      drawFill(g);
-    }
-    if (attr().get(STROKE_COLOR) != null && attr().get(STROKE_WIDTH) >= 0d) {
-      g.setStroke(AttributeKeys.getStroke(this, AttributeKeys.getScaleFactorFromGraphics(g)));
-      g.setColor(attr().get(STROKE_COLOR));
-      drawStroke(g);
-    }
-    if (attr().get(TEXT_COLOR) != null) {
-      if (attr().get(TEXT_SHADOW_COLOR) != null && attr().get(TEXT_SHADOW_OFFSET) != null) {
-        Dimension2DDouble d = attr().get(TEXT_SHADOW_OFFSET);
-        g.translate(d.width, d.height);
-        g.setColor(attr().get(TEXT_SHADOW_COLOR));
-        drawText(g);
-        g.translate(-d.width, -d.height);
-      }
-      g.setColor(attr().get(TEXT_COLOR));
-      drawText(g);
-    }
+    super.draw(g);
   }
 
   protected void drawChildren(Graphics2D g) {

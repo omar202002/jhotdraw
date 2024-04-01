@@ -115,14 +115,6 @@ public abstract class AbstractAttributedFigure implements Figure, Cloneable {
 
   @Override
   public Rectangle2D.Double getDrawingArea(double scale) {
-    //    double strokeTotalWidth = AttributeKeys.getStrokeTotalWidth(this, factor);
-    //    double width = strokeTotalWidth / 2d;
-    //    if (attr().get(STROKE_JOIN) == BasicStroke.JOIN_MITER) {
-    //      width *= attr().get(STROKE_MITER_LIMIT);
-    //    } else if (attr().get(STROKE_CAP) != BasicStroke.CAP_BUTT) {
-    //      width += strokeTotalWidth * 2;
-    //    }
-    //    width++;
     Rectangle2D.Double r = getBounds(scale);
     double grow = AttributeKeys.getPerpendicularHitGrowth(this, scale) * 1.1 + 1;
     Geom.grow(r, grow, grow);
@@ -207,11 +199,6 @@ public abstract class AbstractAttributedFigure implements Figure, Cloneable {
     modified = false;
   }
 
-  //  protected Object getLock() {
-  //    return (getDrawing() == null) ? this : getDrawing().getLock();
-  //  }
-
-  /** tool method to process a listener and create its event object lazily. */
   protected void fireFigureEvent(
       BiConsumer<FigureListener, FigureEvent> listenerConsumer,
       Supplier<FigureEvent> eventSupplier) {
@@ -468,11 +455,6 @@ public abstract class AbstractAttributedFigure implements Figure, Cloneable {
     return new Point2D.Double(r.x, r.y);
   }
 
-  /*
-  public Rectangle2D.Double getHitBounds() {
-  return getBounds();
-  }
-     */
   @Override
   public Dimension2DDouble getPreferredSize(double scale) {
     Rectangle2D.Double r = getBounds(scale);

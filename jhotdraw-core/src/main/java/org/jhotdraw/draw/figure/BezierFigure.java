@@ -622,6 +622,37 @@ public class BezierFigure extends AbstractAttributedFigure {
     return path.splitSegment(split, tolerance);
   }
 
+  protected void handleNodeCreation(int index) {
+    final BezierPath.Node newNode = getNode(index);
+    fireUndoableEditHappened(
+        new AbstractUndoableEdit() {
+          private static final long serialVersionUID = 1L;
+
+          @Override
+          public String getPresentationName() {
+            ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.draw.Labels");
+            return labels.getString("edit.bezierPath.splitSegment.text");
+          }
+
+          @Override
+          public void redo() throws CannotRedoException {
+            super.redo();
+            willChange();
+            addNode(index, newNode);
+            changed();
+          }
+
+          @Override
+          public void undo() throws CannotUndoException {
+            super.undo();
+            willChange();
+            removeNode(index);
+            changed();
+          }
+        });
+    changed();
+  }
+
   /** Handles a mouse click. */
   @Override
   public boolean handleMouseClick(Point2D.Double p, MouseEvent evt, DrawingView view) {
@@ -629,35 +660,7 @@ public class BezierFigure extends AbstractAttributedFigure {
       willChange();
       final int index = splitSegment(p, 5f / view.getScaleFactor());
       if (index != -1) {
-        final BezierPath.Node newNode = getNode(index);
-        fireUndoableEditHappened(
-            new AbstractUndoableEdit() {
-              private static final long serialVersionUID = 1L;
-
-              @Override
-              public String getPresentationName() {
-                ResourceBundleUtil labels =
-                    ResourceBundleUtil.getBundle("org.jhotdraw.draw.Labels");
-                return labels.getString("edit.bezierPath.splitSegment.text");
-              }
-
-              @Override
-              public void redo() throws CannotRedoException {
-                super.redo();
-                willChange();
-                addNode(index, newNode);
-                changed();
-              }
-
-              @Override
-              public void undo() throws CannotUndoException {
-                super.undo();
-                willChange();
-                removeNode(index);
-                changed();
-              }
-            });
-        changed();
+        handleNodeCreation(index);
         evt.consume();
         return true;
       }

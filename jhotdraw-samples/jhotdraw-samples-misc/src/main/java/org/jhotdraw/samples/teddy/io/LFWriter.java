@@ -25,7 +25,7 @@ public class LFWriter extends FilterWriter {
   /** Create a new line-numbering writer. */
   public LFWriter(Writer out) {
     super(out);
-    lineSeparator = System.getProperty("line.separator");
+    lineSeparator = System.lineSeparator();
   }
 
   /** Gets the line separator of the println() methods. */

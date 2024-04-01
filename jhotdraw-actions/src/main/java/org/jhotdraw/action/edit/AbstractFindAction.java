@@ -7,6 +7,7 @@
  */
 package org.jhotdraw.action.edit;
 
+import java.io.Serial;
 import org.jhotdraw.action.AbstractViewAction;
 import org.jhotdraw.api.app.Application;
 import org.jhotdraw.api.app.View;
@@ -23,7 +24,8 @@ import org.jhotdraw.util.*;
  */
 public abstract class AbstractFindAction extends AbstractViewAction {
 
-  private static final long serialVersionUID = 1L;
+  @Serial private static final long serialVersionUID = 1L;
+
   public static final String ID = "edit.find";
 
   public AbstractFindAction(Application app, View view) {

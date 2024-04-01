@@ -8,6 +8,7 @@
 package org.jhotdraw.action;
 
 import java.beans.*;
+import java.io.Serial;
 import javax.swing.*;
 import org.jhotdraw.api.app.Application;
 import org.jhotdraw.api.app.View;
@@ -24,7 +25,8 @@ import org.jhotdraw.beans.WeakPropertyChangeListener;
  */
 public abstract class AbstractViewAction extends AbstractAction {
 
-  private static final long serialVersionUID = 1L;
+  @Serial private static final long serialVersionUID = 1L;
+
   private Application app;
   private View view;
   private String propertyName;

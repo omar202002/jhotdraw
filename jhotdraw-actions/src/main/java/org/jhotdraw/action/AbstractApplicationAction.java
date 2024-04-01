@@ -8,6 +8,7 @@
 package org.jhotdraw.action;
 
 import java.beans.*;
+import java.io.Serial;
 import javax.swing.*;
 import org.jhotdraw.api.app.Application;
 import org.jhotdraw.api.app.Disposable;
@@ -35,7 +36,8 @@ import org.jhotdraw.beans.WeakPropertyChangeListener;
  */
 public abstract class AbstractApplicationAction extends AbstractAction implements Disposable {
 
-  private static final long serialVersionUID = 1L;
+  @Serial private static final long serialVersionUID = 1L;
+
   private Application app;
   private PropertyChangeListener applicationListener;
 

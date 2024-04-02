@@ -25,7 +25,6 @@ import org.jhotdraw.util.*;
 public abstract class AbstractFindAction extends AbstractViewAction {
 
   @Serial private static final long serialVersionUID = 1L;
-
   public static final String ID = "edit.find";
 
   public AbstractFindAction(Application app, View view) {

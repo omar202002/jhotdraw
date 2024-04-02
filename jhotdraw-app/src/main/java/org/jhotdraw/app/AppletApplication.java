@@ -19,12 +19,12 @@ import org.jhotdraw.api.app.View;
 public class AppletApplication extends AbstractApplication {
 
   private static final long serialVersionUID = 1L;
-  private JApplet applet;
+  private JFrame frame;
   private View view;
 
   /** Creates a new instance of AppletApplication */
-  public AppletApplication(JApplet applet) {
-    this.applet = applet;
+  public AppletApplication(JFrame frame) {
+    this.frame = frame;
   }
 
   @Override
@@ -38,8 +38,8 @@ public class AppletApplication extends AbstractApplication {
   @Override
   public void show(View v) {
     this.view = v;
-    applet.getContentPane().removeAll();
-    applet.getContentPane().add(v.getComponent());
+    frame.getContentPane().removeAll();
+    frame.getContentPane().add(v.getComponent());
     v.start();
     v.activate();
   }
@@ -48,7 +48,7 @@ public class AppletApplication extends AbstractApplication {
   public void hide(View v) {
     v.deactivate();
     v.stop();
-    applet.getContentPane().removeAll();
+    frame.getContentPane().removeAll();
     this.view = null;
   }
 
@@ -64,7 +64,7 @@ public class AppletApplication extends AbstractApplication {
 
   @Override
   public Component getComponent() {
-    return applet;
+    return frame;
   }
 
   @Override

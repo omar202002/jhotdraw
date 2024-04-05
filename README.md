@@ -63,7 +63,11 @@ J'ai supprimé la classe statique inutile `LocatorLayouterFirstFigure` qui se tr
 
 Voici le lien du commit correspondant à la suppression de la classe statique inutile `LocatorLayouterFirstFigure` : [Suppression de la classe statique inutile `LocatorLayouterFirstFigure`](https://github.com/omar202002/jhotdraw/commit/f34f9900d96de9bf33f8e3dbdd2b9ef21ce2cbdb)
 
-## Réorganisation d'une classe
+## Réorganisation d'une classe:
+
+J'ai reorganisé la classe `AbstractApplicationAction` en déplaçant les méthodes `get` et `set`.
+
+Voici le lien du commit correspondant à la réorganisation de la classe `AbstractApplicationAction` : [Réorganisation de la classe `AbstractApplicationAction`](https://github.com/omar202002/jhotdraw/commit/6a497bb80deb1e22fe60ab9b6648594e64816b02)
 
 
 # Conclusion

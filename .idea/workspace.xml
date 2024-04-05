@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab302ed3-2daa-4d59-9d20-876d74083af5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/FocusWindowAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/FocusWindowAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/MaximizeWindowAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/MaximizeWindowAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/AttributeKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/AttributeKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/UngroupAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/UngroupAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/ZoomAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/ZoomAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/ZoomEditorAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/ZoomEditorAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/AbstractConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/AbstractConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopBezierConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopBezierConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopDiamondConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopDiamondConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopEllipseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopEllipseConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathOutlineHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathOutlineHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGRectFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGRectFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGRectRadiusHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGRectRadiusHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/EnhancedPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/EnhancedPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/package-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="ab302ed3-2daa-4d59-9d20-876d74083af5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +114,7 @@
       <workItem from="1711872858227" duration="16590000" />
       <workItem from="1712067978058" duration="2048000" />
       <workItem from="1712236452630" duration="4548000" />
-      <workItem from="1712342472748" duration="4421000" />
+      <workItem from="1712342472748" duration="5002000" />
     </task>
     <servers />
   </component>

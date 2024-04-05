@@ -49,3 +49,24 @@ Voici les liens des commits correspondants à la suppression du code commenté d
 Dans la classe AppletApplicaton, l'une de ses variables nommée `applet` avait pour type JApplet. Mais ce type faisant partie je la version 9 de Java, j'ai décidé de le changer en JFrame qui est une classe plus ancienne et qui est compatible avec les versions antérieures de Java. J'ai également renommé cette variable en `frame`.
 
 Voici le lien du commit correspondant au changement de type et renommage de la variable `applet` en `frame` dans la classe AppletApplicaton : [Changement de type et renommage de la variable `applet` en `frame` dans la classe AppletApplicaton](https://github.com/omar202002/jhotdraw/commit/b7174cb133aefecebd238ac930515cc0b6877135)
+
+## Reduction de la complexité cyclomatique d'une méthode
+
+J'ai décidé de modifier la méthode `doIt` de la classe `LoadRecentFileAction` pour réduire sa complexité cyclomatique. Cette fonction codée sur 102 ligne a un e complexté cyclomatique de 10.
+
+Dans ce code, j'ai décomposé la méthode doIt(View v) en plusieurs méthodes plus petites : checkFileExists, handleSuccessfulFileLoad, handleFailedFileLoad, et finished.
+Voici le lien du commit correspondant à la réduction de la complexité cyclomatique de la méthode `doIt` de la classe `LoadRecentFileAction` : [Réduction de la complexité cyclomatique de la méthode `doIt` de la classe `LoadRecentFileAction`](https://github.com/omar202002/jhotdraw/commit/9fefc5abccf3dcb951ccf129c8d2fc9dccec146f)
+
+## Suppression d'une classe statique inutile
+
+J'ai supprimé la classe statique inutile `LocatorLayouterFirstFigure` qui se trouve dans le package `LocatorLayouter`, et j'ai déplacé son contenu dans la classe `LocatorLayouter`.
+
+Voici le lien du commit correspondant à la suppression de la classe statique inutile `LocatorLayouterFirstFigure` : [Suppression de la classe statique inutile `LocatorLayouterFirstFigure`](https://github.com/omar202002/jhotdraw/commit/f34f9900d96de9bf33f8e3dbdd2b9ef21ce2cbdb)
+
+## Réorganisation d'une classe
+
+
+# Conclusion
+
+Ce projet m'a permis de mieux comprendre le fonctionnement d'un projet open source et de contribuer à son amélioration. J'ai pu appliquer les notions apprises en cours de génie logiciel et j'ai pu découvrir de nouvelles notions. J'ai également pu travailler en équipe et j'ai pu améliorer mes compétences en programmation Java.
+Il y a quelques modifications que j'aurais aimé apporter au projet mais je n'ai pas pu le faire faute de temps. Je pense que ce projet m'a permis de mieux comprendre le fonctionnement d'un projet open source et de contribuer à son amélioration. J'ai pu appliquer les notions apprises en cours de génie logiciel et j'ai pu découvrir de nouvelles notions concernant le refactoring de code et la gestions des branches sur Git.

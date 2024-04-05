@@ -7,14 +7,9 @@
     <list default="true" id="ab302ed3-2daa-4d59-9d20-876d74083af5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-actions/jhotdraw-actions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/jhotdraw-actions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/edit/AbstractFindAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/edit/AbstractFindAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/FocusWindowAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/FocusWindowAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/MaximizeWindowAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/src/main/java/org/jhotdraw/action/window/MaximizeWindowAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-actions/src/main/resources/org/jhotdraw/action/Labels.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-actions/src/main/resources/org/jhotdraw/action/Labels.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-api/jhotdraw-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-api/jhotdraw-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-app/jhotdraw-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-app/jhotdraw-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-core/jhotdraw-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/jhotdraw-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jhotdraw-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/AttributeKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/AttributeKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/UngroupAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/UngroupAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/ZoomAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/action/ZoomAction.java" afterDir="false" />
@@ -23,11 +18,6 @@
       <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopBezierConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopBezierConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopDiamondConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopDiamondConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopEllipseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-core/src/main/java/org/jhotdraw/draw/connector/ChopEllipseConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-datatransfer/jhotdraw-datatransfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-datatransfer/jhotdraw-datatransfer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-gui/jhotdraw-gui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-gui/jhotdraw-gui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-io/jhotdraw-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-io/jhotdraw-io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-mini/jhotdraw-samples-mini.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-mini/jhotdraw-samples-mini.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/jhotdraw-samples-misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/jhotdraw-samples-misc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathFigure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathOutlineHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGPathOutlineHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGRectFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/ODGRectFigure.java" afterDir="false" />
@@ -35,14 +25,6 @@
       <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/figures/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/EnhancedPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/EnhancedPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples-misc/src/main/java/org/jhotdraw/samples/odg/geom/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-samples/jhotdraw-samples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-utils/jhotdraw-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-utils/jhotdraw-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/ResourceBundleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/ResourceBundleUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/ReversedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/ReversedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-utils/src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw-xml/jhotdraw-xml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw-xml/jhotdraw-xml.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhotdraw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhotdraw.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +38,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -86,21 +68,6 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="AttributesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jhotdraw-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.jhotdraw.draw.figure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.jhotdraw.draw.figure" />
-      <option name="MAIN_CLASS_NAME" value="org.jhotdraw.draw.figure.AttributesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Projet_GL" />
       <option name="ENV_FILES" value="" />
@@ -123,6 +90,21 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
+    </configuration>
+    <configuration name="AttributesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jhotdraw-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jhotdraw.draw.figure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jhotdraw.draw.figure" />
+      <option name="MAIN_CLASS_NAME" value="org.jhotdraw.draw.figure.AttributesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
@@ -152,6 +134,8 @@
       <workItem from="1711792070151" duration="3910000" />
       <workItem from="1711872858227" duration="16590000" />
       <workItem from="1712067978058" duration="2048000" />
+      <workItem from="1712236452630" duration="4548000" />
+      <workItem from="1712342472748" duration="4421000" />
     </task>
     <servers />
   </component>

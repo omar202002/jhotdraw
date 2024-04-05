@@ -1,10 +1,3 @@
-/*
- * @(#)AbstractApplicationAction.java
- *
- * Copyright (c) 1996-2010 The authors and contributors of JHotDraw.
- * You may not use, copy or modify this file, except in compliance with the
- * accompanying license terms.
- */
 package org.jhotdraw.action;
 
 import java.beans.*;
@@ -36,20 +29,47 @@ import org.jhotdraw.beans.WeakPropertyChangeListener;
  */
 public abstract class AbstractApplicationAction extends AbstractAction implements Disposable {
 
+  // Attributs
   @Serial private static final long serialVersionUID = 1L;
-
+  private static final String ENABLED_PROPERTY = "enabled";
   private Application app;
   private PropertyChangeListener applicationListener;
+  private boolean enabled;
 
+  /**
+   * Constructs a new {@code AbstractApplicationAction} that acts on the specified {@code
+   * Application}.
+   *
+   * @param app the {@code Application} this action should operate on
+   */
   public AbstractApplicationAction(Application app) {
     this.app = app;
     installApplicationListeners(app);
     updateApplicationEnabled();
   }
 
-  /*
-   * Installs listeners on the application object.
+  /**
+   * Returns the {@code Application} this action operates on.
+   *
+   * @return the {@code Application}
    */
+  public Application getApplication() {
+    return app;
+  }
+
+  /**
+   * Sets the enabled state of this action.
+   *
+   * @param newValue true to enable the action, false to disable it
+   */
+  @Override
+  public void setEnabled(boolean newValue) {
+    boolean oldValue = this.enabled;
+    this.enabled = newValue;
+    firePropertyChange(ENABLED_PROPERTY, oldValue && app.isEnabled(), newValue && app.isEnabled());
+  }
+
+  /** Installs listeners on the application object. */
   protected void installApplicationListeners(Application app) {
     if (applicationListener == null) {
       applicationListener = createApplicationListener();
@@ -57,11 +77,16 @@ public abstract class AbstractApplicationAction extends AbstractAction implement
     app.addPropertyChangeListener(new WeakPropertyChangeListener(applicationListener));
   }
 
-  /** Installs listeners on the application object. */
+  /** Uninstalls listeners on the application object. */
   protected void uninstallApplicationListeners(Application app) {
     app.removePropertyChangeListener(applicationListener);
   }
 
+  /**
+   * Creates a new {@code PropertyChangeListener} for the application.
+   *
+   * @return the new listener
+   */
   private PropertyChangeListener createApplicationListener() {
     return new PropertyChangeListener() {
       @Override
@@ -71,12 +96,6 @@ public abstract class AbstractApplicationAction extends AbstractAction implement
         }
       }
     };
-  }
-
-  private static final String ENABLED_PROPERTY = "enabled";
-
-  public Application getApplication() {
-    return app;
   }
 
   /**
@@ -99,19 +118,9 @@ public abstract class AbstractApplicationAction extends AbstractAction implement
   }
 
   /**
-   * Enables or disables the action. The enabled state of the action depends on the value that is
-   * set here and on the enabled state of the application.
-   *
-   * @param newValue true to enable the action, false to disable it
-   * @see Action#setEnabled
+   * Disposes of this action, removing any property change listeners it had installed on the
+   * application.
    */
-  @Override
-  public void setEnabled(boolean newValue) {
-    boolean oldValue = this.enabled;
-    this.enabled = newValue;
-    firePropertyChange(ENABLED_PROPERTY, oldValue && app.isEnabled(), newValue && app.isEnabled());
-  }
-
   @Override
   public final void dispose() {
     if (app != null) {

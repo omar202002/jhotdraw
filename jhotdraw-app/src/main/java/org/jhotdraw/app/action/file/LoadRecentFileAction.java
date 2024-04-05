@@ -12,8 +12,6 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.util.concurrent.ExecutionException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.Action;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
@@ -68,16 +66,28 @@ public class LoadRecentFileAction extends AbstractSaveUnsavedChangesAction {
   @Override
   public void doIt(View v) {
     final Application app = getApplication();
-    // Prevent same URI from being opened more than once
-    if (!getApplication().getModel().isAllowMultipleViewsPerURI()) {
-      for (View vw : getApplication().getViews()) {
+    v = preventSameUriOpenMoreThanOnce(v, app);
+    v = searchForEmptyView(v, app);
+    final View view = v;
+    app.setEnabled(true);
+    view.setEnabled(false);
+    setMultipleOpenId(view, app);
+    openFile(view, app);
+  }
+
+  private View preventSameUriOpenMoreThanOnce(View v, Application app) {
+    if (!app.getModel().isAllowMultipleViewsPerURI()) {
+      for (View vw : app.getViews()) {
         if (vw.getURI() != null && vw.getURI().equals(uri)) {
           vw.getComponent().requestFocus();
-          return;
+          return null;
         }
       }
     }
-    // Search for an empty view
+    return v;
+  }
+
+  private View searchForEmptyView(View v, Application app) {
     if (v == null) {
       View emptyView = app.getActiveView();
       if (emptyView == null || emptyView.getURI() != null || emptyView.hasUnsavedChanges()) {
@@ -91,11 +101,10 @@ public class LoadRecentFileAction extends AbstractSaveUnsavedChangesAction {
         v = emptyView;
       }
     }
-    final View view = v;
-    app.setEnabled(true);
-    view.setEnabled(false);
-    // If there is another view with the same file we set the multiple open
-    // id of our view to max(multiple open id) + 1.
+    return v;
+  }
+
+  private void setMultipleOpenId(View view, Application app) {
     int multipleOpenId = 1;
     for (View aView : app.views()) {
       if (aView != view && aView.getURI() != null && aView.getURI().equals(uri)) {
@@ -103,71 +112,79 @@ public class LoadRecentFileAction extends AbstractSaveUnsavedChangesAction {
       }
     }
     view.setMultipleOpenId(multipleOpenId);
-    // Open the file
+  }
+
+  private void openFile(View view, Application app) {
     new SwingWorker() {
       @Override
       protected Object doInBackground() throws Exception {
-        boolean exists = true;
-        try {
-          File f = new File(uri);
-          exists = f.exists();
-        } catch (IllegalArgumentException e) {
-          // The URI does not denote a file, thus we can not check whether the file exists.
-        }
-        if (exists) {
-          view.read(uri, null);
-        } else {
-          ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.app.Labels");
-          throw new IOException(
-              labels.getFormatted("file.load.fileDoesNotExist.message", URIUtil.getName(uri)));
-        }
-        return null;
+        return checkFileExists(view);
       }
 
       @Override
       protected void done() {
         try {
           get();
-          final Application app = getApplication();
-          view.setURI(uri);
-          app.addRecentURI(uri);
-          Frame w = (Frame) SwingUtilities.getWindowAncestor(view.getComponent());
-          if (w != null) {
-            w.setExtendedState(w.getExtendedState() & ~Frame.ICONIFIED);
-            w.toFront();
-          }
-          view.getComponent().requestFocus();
-          app.setEnabled(true);
+          handleSuccessfulFileLoad(view, app);
         } catch (InterruptedException | ExecutionException ex) {
-          Logger.getLogger(LoadRecentFileAction.class.getName()).log(Level.SEVERE, null, ex);
-          failed(ex);
+          handleFailedFileLoad(ex, view);
         }
-        finished();
-      }
-
-      protected void failed(Throwable error) {
-        error.printStackTrace();
-        ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.app.Labels");
-        JSheet.showMessageSheet(
-            view.getComponent(),
-            "<html>"
-                + UIManager.getString("OptionPane.css")
-                + "<b>"
-                + labels.getFormatted("file.load.couldntLoad.message", URIUtil.getName(uri))
-                + "</b><p>"
-                + error,
-            JOptionPane.ERROR_MESSAGE,
-            new SheetListener() {
-              @Override
-              public void optionSelected(SheetEvent evt) {
-                // app.dispose(view);
-              }
-            });
-      }
-
-      protected void finished() {
-        view.setEnabled(true);
+        finished(view);
       }
     }.execute();
+  }
+
+  private Object checkFileExists(View view) throws IOException {
+    boolean exists = true;
+    try {
+      File f = new File(uri);
+      exists = f.exists();
+    } catch (IllegalArgumentException e) {
+      // The URI does not denote a file, thus we can not check whether the file exists.
+    }
+    if (exists) {
+      view.read(uri, null);
+    } else {
+      ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.app.Labels");
+      throw new IOException(
+          labels.getFormatted("file.load.fileDoesNotExist.message", URIUtil.getName(uri)));
+    }
+    return null;
+  }
+
+  private void handleSuccessfulFileLoad(View view, Application app) {
+    view.setURI(uri);
+    app.addRecentURI(uri);
+    Frame w = (Frame) SwingUtilities.getWindowAncestor(view.getComponent());
+    if (w != null) {
+      w.setExtendedState(w.getExtendedState() & ~Frame.ICONIFIED);
+      w.toFront();
+    }
+    view.getComponent().requestFocus();
+    app.setEnabled(true);
+  }
+
+  private void handleFailedFileLoad(Throwable error, View view) {
+    error.printStackTrace();
+    ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.app.Labels");
+    JSheet.showMessageSheet(
+        view.getComponent(),
+        "<html>"
+            + UIManager.getString("OptionPane.css")
+            + "<b>"
+            + labels.getFormatted("file.load.couldntLoad.message", URIUtil.getName(uri))
+            + "</b><p>"
+            + error,
+        JOptionPane.ERROR_MESSAGE,
+        new SheetListener() {
+          @Override
+          public void optionSelected(SheetEvent evt) {
+            // app.dispose(view);
+          }
+        });
+  }
+
+  private void finished(View view) {
+    view.setEnabled(true);
   }
 }
